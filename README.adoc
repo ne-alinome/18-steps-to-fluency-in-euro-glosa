@@ -1,0 +1,30 @@
+= Plu Glosa Dokumenta
+:author: Marcos Cruz (programandala.net)
+:revdate: 2018-11-14
+
+== Español
+
+_Plu Glosa Dokumenta_ (Documentos de Glosa) es un proyecto
+para convertir algunos documentos sobre la lengua Glosa, disponibles
+en glosa.org, al formato Asciidoctor, para mejorarlos y poder
+convertirlos en otros formatos más fáciles de usar.
+
+== Esperanto
+
+_Plu Glosa Dokumenta_ (Glosa-aj dokumentoj) estas projekto
+traduki dokumentojn pri la lingvo Gloso, disponeblajn en glosa.org, en
+Asciidoctor-formaton, por plibonigi ilin kaj ebligi ilian tradukon en
+aliajn pli facile uzeblajn formatojn.
+
+== English
+
+_Plu Glosa Dokumenta_ (Glosa Documents) is a project to convert some
+documents about the Glosa language, which are available in glosa.org,
+into Asciidoctor format, in order to improve them and make it possible
+to convert them into other formats, which are easier to use.
+
+== Glosa
+
+_Plu Glosa Dokumenta_ es projekti de translati plu Glosa dokumenta; qi
+es in glosa.org; ad-in Asciidoctor formati; te ma-boni mu e pote
+translati mu ad-in hetero formati; qi es ma facili uti.
