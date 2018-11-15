@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811152238
+// Last modified 201811152321
 
 ////
 
@@ -50,7 +50,7 @@ About the notes added by Marcel Springer in the HTML document:
 This HTML-file is a light version of the book
 
 ....
-Ashby, Wendy/ Clark, Ronald:
+Ashby, Wendy / Clark, Ronald:
 18 Steps to Fluency in Euro-Glosa,
 The Interlanguage for Europe and the World,
 3rd edition © 1992 by Glosa Education Organizaton,
@@ -303,38 +303,40 @@ There are plenty of examples in the book.
 === Vocabulary
 
 |===
-| drama                     | acting
-| musika                    | music
-| kulti plu fito            | growing plants
-| grafo poesi / plu grama   | writing poetry / letters
-| gresi                     | walking
-| nekto                     | swimming
-| viagia                    | travel
-| e                         | and
-| kanta                     | singing
-| kore                      | dancing
-| kapti plu piski           | catching fish
-| face plu kerami vasa      | making pottery vases
-| kolekti plu moneta        | collecting coins
-| kolekti plu posta karta   | collecting post cards
-| lekto plu bibli           | reading books
-| fotografi                 | photography
-| internexu                 | networking
-| audi u radio              | listening to radio
-| kambio plu grama          | exchanging letters
-| gene sko de plu lingua    | learning languages
-| skope televisio           | watching television
-| sporta tenis              | playing tennis
-| plu gram-ami              | penfriends
-| visita u teatra / plu ami | visiting the theatre / friends
-| trikota e sue             | knitting and sewing
-| soni u piano              | playing the piano
-| amo                       | to like, love
-| de                        | in relation to; with respect to
-| plu enigma                | puzzles
-| kuko                      | cooking
-| plu puta-me ludi          | computer games
-| habe                      | to have; to possess
+| drama                    | acting
+| musika                   | music
+| kulti plu fito           | growing plants
+| grafo poesi              | writing poetry
+| grafo plu grama          | writing letters
+| gresi                    | walking
+| nekto                    | swimming
+| viagia                   | travel
+| e                        | and
+| kanta                    | singing
+| kore                     | dancing
+| kapti plu piski          | catching fish
+| face plu kerami vasa     | making pottery vases
+| kolekti plu moneta       | collecting coins
+| kolekti plu posta karta  | collecting post cards
+| lekto plu bibli          | reading books
+| fotografi                | photography
+| internexu                | networking
+| audi u radio             | listening to radio
+| kambio plu grama         | exchanging letters
+| gene sko de plu lingua   | learning languages
+| skope televisio          | watching television
+| sporta tenis             | playing tennis
+| plu gram-ami             | penfriends
+| visita u teatra          | visiting the theatre
+| visita plu ami           | visiting the friends
+| trikota e sue            | knitting and sewing
+| soni u piano             | playing the piano
+| amo                      | to like, love
+| de                       | in relation to; with respect to
+| plu enigma               | puzzles
+| kuko                     | cooking
+| plu puta-me ludi         | computer games
+| habe                     | to have; to possess
 |===
 
 === Numbers
@@ -615,7 +617,7 @@ need for it to be followed by u(n), the article.
 | Loka id in teka                                 | Put it in the box
 | An eko kontra na                                | He lives opposite us
 | In e peri urba                                  | In and around town
-| Sti id pende a mura (Other prepositions are also possible: Pend id a/de/epi/kata mura) 
+| Sti id pende afootnote:[Other prepositions are also possible: "de", "epi", "kata".] mura
 | Hang it on the wall
 | Registra epi flexi disko                        | Record on to a floppy disk.
 | Fe pa loka u mantela epi se.                    | She put on her coat
@@ -737,7 +739,7 @@ time, eg.
 | An habe u di-bibli.                  | He has a diary.
 | An ne pa es in domi.                 | He wasn't at home.
 | Na pa sporta in mega horti.          | We played in the big garden.
-| Plu mega boteka.                     | Big shops/ Department stores.
+| Plu mega boteka.                     | Big shops / Department stores.
 | Dora es u domi-fe.                   | Dora is a house-wife.
 | sani-sito-bo.                        | Health food shop.
 |===
@@ -1120,19 +1122,23 @@ ____
 // Things to Eat - A_Few_Phrases
 
 |===
-| mixa u margarina e sukro-ma                   |  cream the margarine and sugar
-| mixa bi ova                                   |  beat two eggs
-| fria u kasea                                  |  grate the cheese
-| spora plu sperma supra                        |  sprinkle seeds on top
-| peli / lami u pomi                            |  peel / slice an apple
-| frakti / fria plu nuki                        |  crack / chop the nuts
-| buli un oriza in ge-sali aqa                  |  boil the rice in salted water
-| pande butiri epi pani                         |  spread butter on bread
-| lipo / vapo / gril u piski                    |  fry / steam / grill the fish
-| kuk e mixa plu ova                            |  scramble the eggs
-| furna plu potato                              |  roast the potatoes
-| fusi sos epi pasta                            |  pour sauce on the pasta
-| kribri u farina                               |  sieve the flour
+| mixa u margarina e sukro-ma   | cream the margarine and sugar
+| mixa bi ova                   | beat two eggs
+| fria u kasea                  | grate the cheese
+| spora plu sperma supra        | sprinkle seeds on top
+| peli u pomi                   | peel an apple
+| lami u pomi                   | slice an apple
+| frakti plu nuki               | crack the nuts
+| fria plu nuki                 | chop the nuts
+| buli un oriza in ge-sali aqa  | boil the rice in salted water
+| pande butiri epi pani         | spread butter on bread
+| lipo u piski                  | fry the fish
+| vapo u piski                  | steam the fish
+| gril u piski                  | grill the fish
+| kuk e mixa plu ova            | scramble the eggs
+| furna plu potato              | roast the potatoes
+| fusi sos epi pasta            | pour sauce on the pasta
+| kribri u farina               | sieve the flour
 |===
 
 
@@ -1322,32 +1328,38 @@ ____
 // The House - A_Few_Phases
 
 |===
-| merka / vendo tu domi           | buy / sell your house
-| eko in neo domi                 | move to a new house
-| prende un hipoteka              | take out a mortgage
-| tem-habe u domi                 | rent a house
-| Proprie-pe. Tem eko-pe.         | Owner. Tenant.
-| domi-fe                         | housewife
-| brosa kuko-ka pedi-lo           | sweep kitchen floor
-| sistema u sedi-ka               | tidy the lounge
-| puri u tape                     | vacuum the carpet
-| re taxo plu mobili              | rearrange the furniture
-| in ante-ka / poste-ka           | in the front / back room
-| ki ana / kata                   | go upstairs / downstairs
-| klavi / no-klavi u porta        | lock / unlock the door
-| soni u fronta porta kampani     | ring the front door bell
-| klude / apri u fenestra         | close / open the window
-| balno se                        | take a bath
-| kuko u vespera vora             | cook the evening meal
-| Qo-lo tu eko?                   | Where do you live?
-| Qe Sr. / Sa. X es a domi?       | Is Mr. / Ms. X at home?
-| Place veni in.                  | Please come in.
-| Senti a tu domi                 | Make yourself at home
-| Qe, tu fu resta ci u setimana?  | Will you stay with us for a week?
-| Ex tu kamera tu skope un horti. | Your room overlooks the garden.
-| Mi spe; tu fu senti hedo ci.    | I hope you will be comfortable.
-| Dic a mi; si tu volu ali-ra.    | Let me know if you need anything.
-| Na vora a seti horo.            | We eat at 7 o'clock.
+| merka tu domi                    | buy your house
+| vendo tu domi                    | sell your house
+| eko in neo domi                  | move to a new house
+| prende un hipoteka               | take out a mortgage
+| tem-habe u domi                  | rent a house
+| Proprie-pe. Tem eko-pe.          | Owner. Tenant.
+| domi-fe                          | housewife
+| brosa kuko-ka pedi-lo            | sweep kitchen floor
+| sistema u sedi-ka                | tidy the lounge
+| puri u tape                      | vacuum the carpet
+| re taxo plu mobili               | rearrange the furniture
+| in ante-ka                       | in the front room
+| in poste-ka                      | in the back room
+| ki ana                           | go upstairs
+| ki kata                          | go downstairs
+| klavi porta                      | lock the door
+| no-klavi u porta                 | unlock the door
+| soni u fronta porta kampani      | ring the front door bell
+| klude u fenestra                 | close the window
+| apri u fenestra                  | open the window
+| balno se                         | take a bath
+| kuko u vespera vora              | cook the evening meal
+| Qo-lo tu eko?                    | Where do you live?
+| Qe Sr. X es a domi?              | Is Mr. X at home?
+| Qe Sa. X es a domi?              | Is Ms. X at home?
+| Place veni in.                   | Please come in.
+| Senti a tu domi                  | Make yourself at home
+| Qe, tu fu resta ci u setimana?   | Will you stay with us for a week?
+| Ex tu kamera tu skope un horti.  | Your room overlooks the garden.
+| Mi spe; tu fu senti hedo ci.     | I hope you will be comfortable.
+| Dic a mi; si tu volu ali-ra.     | Let me know if you need anything.
+| Na vora a seti horo.             | We eat at 7 o'clock.
 |===
 
 === A Letter
@@ -1396,7 +1408,8 @@ ____
 | Tem na pa ki ana monti; id pa proto pluvi. 
 | While we were going up the mountain, it started to rain.
 | Mi pa telefono a fe bi kron.        | I phoned her twice.
-| tri kron singu anua / di            | three times a year / day
+| tri kron singu anua                 | three times a year
+| tri kron singu di                   | three times a day
 | Fe pa eko in India tem mo anua.     | She lived in India for one year.
 | Mi nu eko in Italia.                | I now live in Italy.
 | Mi eko Italia ex bi anua retro.     | I have been living in Italy for two years.
@@ -1889,8 +1902,10 @@ ____
 | Id es u-mi. Id es u-tu.               | It is mine. It is yours.
 | Id es mi bibli. Id es tu bibli.       | It is my book. It is your book.
 | Tu nece gene more u-ci frigi klima.   | You must get accustomed to this cold climate.
-| An more visita fe bi kron singu anua/setimana.
-| He usually visits her twice a year/week.
+| An more visita fe bi kron singu anua.
+| He usually visits her twice a year.
+| An more visita fe bi kron singu setimana.
+| He usually visits her twice a week.
 | U-la es no-more.                      | That is unusual.
 | An more trena ad urba; sed nu-di an fu vagona. 
 | He usually goes to town by train, but today he will drive.
