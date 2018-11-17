@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171810
+// Last modified 201811171830
 
 ////
 
@@ -2860,18 +2860,21 @@ Kruci-Verba, Step 13:
 
 == Contents of the original cover page
 
-GLOSA +
-FOR WORLD COMMUNICATION, EDUCATION +
+GLOSA
+
+FOR WORLD COMMUNICATION, EDUCATION
+
 THIRD-WORLD, CONSERVATION
 
 [quote, Prof. Hogben, Vocabulary of Science]
 ____
 The world-wide vocabulary of Science is the nearest thing to the
 lexicon of a truly global Language that mankind has yet achieved. It
-derives ist words from two dead languages -- Greek and Latin.
+derives ist words from two dead languages — Greek and Latin.
 ____
 
-GLOSA IS NOT AN INVENTION +
+GLOSA IS NOT AN INVENTION
+
 IT'S A DISCOVERY.
 
 ISBN 0 946540 15 2   
