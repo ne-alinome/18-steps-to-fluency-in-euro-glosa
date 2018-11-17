@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa (e-book draft last modified 201811172025)
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172045]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -11,6 +11,10 @@ e-book version by Marcos Cruz (2018)
 
 ////
 
+- XXX FIXME -- `{nbsp}` is not rendered into DocBook. Therefore it
+  passes as is into EPUB.
+- Move the descriptions of the original table of contents to the
+  actual headings.
 - Consult Marcel about the note on "stilo".
 - Ask Marcel if second option in "Qe Glosa es tu lingua bi? / Qe Glosa
   es u lingua bi de tu?" was added by him.
@@ -81,7 +85,7 @@ Changes to the HTML version:
 - The notes with the page numbers of the original paper book have been
   removed.
 
-Thanks to Marcel Springler for his long work preserving the contents
+Thanks to Marcel Springler for all of his work preserving the contents
 of the the original paper book.
 
 Marcos Cruz (alinome.net), 2018-11.
@@ -139,12 +143,10 @@ Marcel Springer, document started 2001, last modified August 2010.
 - Aids learning of euro-languages.
 - Ideal for education, intelligent tourism and computerization.
 
-== Original table of contents
-
-// XXX TODO -- Move the step descriptions to the actual headings
-
-NOTE: A lot of the word lists and pictures listed in the contents
+:otoc_note: A lot of the word lists and pictures listed in the contents \
 table below are not contained in this HTML-version.
+
+== Original table of contentsfootnote:[{otoc_note} {by_ms}]
 
 ....
          The Global Language for the Global Village         ...  p.  4
@@ -212,9 +214,12 @@ In contrast all Glosa words are already internationally familiar and in lively
 daily use not only in Europe but everywhere modern Medicine and Science
 penetrate.
 
+// XXX REMARK -- The following quote is not verbatim the copy in
+// section _Contents of the original cover page_.
+
 The late Prof. Lancelot Hogben pointed out that "The world-wide vocabulary of
 Science is the nearest thing to the lexicon of a truly Global Language that
-Mankind has yet achieved. It derives its words from two dead languages - Latin
+Mankind has yet achieved. It derives its words from two dead languages — Latin
 and now, almost exclusively Greek."
 
 Although Glosa has a very large Mega Vocabulary, its heart, its centre consists
@@ -2889,6 +2894,9 @@ GLOSA
 FOR WORLD COMMUNICATION, EDUCATION
 
 THIRD-WORLD, CONSERVATION
+
+// XXX REMARK -- This quote is not verbatim the copy in section _The
+// Global Language for the Global Village_.
 
 [quote, Prof. Hogben, Vocabulary of Science]
 ____
