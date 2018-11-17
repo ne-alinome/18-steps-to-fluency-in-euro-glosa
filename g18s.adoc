@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172120]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172149]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -12,23 +12,24 @@ e-book version by Marcos Cruz (2018)
 ////
 
 - Link steps mentioned in the Foreword.
-- XXX FIXME -- `{nbsp}` is not rendered into DocBook. Therefore it
-  passes as is into EPUB.
 - Move the descriptions of the original table of contents to the
   actual headings.
-- Consult Marcel about the note on "stilo".
-- Ask Marcel if second option in "Qe Glosa es tu lingua bi? / Qe Glosa
-  es u lingua bi de tu?" was added by him.
 - Use curved quotes (but somehow they are not rendered in footnotes).
   Use italics instead?
 - Combine repeated footnotes.
 - Add the pictures.
-- Consult Marcel about the original cover pages
 - "(=" --> "(" and "/" ?
-- Consult Marcel about the e-mail address format.
-- Consult Marcel about Gary Miller's e-mail and printing service.
 - Add the "Pikto-Verba" and other exercises.
 - Review usage of full stops in quotes in English.
+
+Consult Marcel:
+
+- The note on "stilo".
+- The original cover pages.
+- The e-mail address format.
+- Gary Miller's e-mail and printing service.
+- Is the second option in "Qe Glosa es tu lingua bi? / Qe Glosa es u
+  lingua bi de tu?" his?
 
 ////
 
@@ -55,7 +56,7 @@ e-book version by Marcos Cruz (2018)
 
 // XXX TODO -- missing final vowel [will be] corrected, e.g. skop, dic
 
-NOTE: This section is unfinished. It is a draft.
+NOTE: This section is unfinished.
 
 The origin of this e-book was just the idea to make the
 http://glosa.org/en/g18s.htm[HTML version of _18 Steps to Fluency in
@@ -86,8 +87,8 @@ Changes to the HTML version:
 - The notes with the page numbers of the original paper book have been
   removed.
 
-Thanks to Marcel Springler for all of his work preserving the contents
-of the the original paper book.
+Thanks to Marcel Springler for all his work preserving the contents of
+the original paper book.
 
 Marcos Cruz (alinome.net), 2018-11.
 
@@ -100,7 +101,7 @@ Ashby, Wendy / Clark, Ronald:
 18 Steps to Fluency in Euro-Glosa,
 The Interlanguage for Europe and the World,
 3rd edition © 1992 by Glosa Education Organizaton,
-Richmond, UK; ISBN{nbsp}0{nbsp}946540{nbsp}15{nbsp}2.
+Richmond, UK; ISBN 0 946540 15 2.
 ....
 
 You can buy the book from Wendy Ashby (c/o Glosa Education 35 Wingfield Road;
@@ -149,53 +150,35 @@ table below are not contained in this HTML-version.
 
 == Original table of contentsfootnote:[{otoc_note} {by_ms}]
 
-....
-         The Global Language for the Global Village         ...  p.  4
-         Pronunciation, Alphabet, Punctuation               ...  p.  5
-
-Step  1: A, the; Past and future tenses;                    ...  p.  6
-         numbers, -co, picture crossword.                   ...  p.  7
-Step  2: Would, if                                          ...  p.  9
-         professions, colors, place (words & picture)       ...  p. 10
-Step  3: Not, negative. Shops. Living things. Buildings     ...  p. 12
-Step  4: Forming questions;                                 ...  p. 15
-         Parts of the body; Rings and Things. Vessels.      ...  p. 16
-         Furniture.
-Step  5: What? Which? Greetings, Devices.                   ...  p. 18
-Step  6: This & that. These & those;                        ...  p. 21
-         Places. Materials. Sets. Thread. Stone; Things to
-         eat (picture page and phrases).                    ...  p. 22
-Step  7: Get. Become. Got;;                                 ...  p. 24
-         Opposites. Get & got. Clothes. Cloths;             ...  p. 25
-         Travel (picture & phrases).                        ...  p. 26
-Step  8: May, perhaps, must, have to;                       ...  p. 28
-         The house (picture & phrases).                     ...  p. 29
-Step  9: Time, during;                                      ...  p. 31
-         Street scene (picture & text);                     ...  p. 32
-         Psalm 23 (parallel text).                          ...  p. 33
-Step 10: Very, intense;                                     ...  p. 34
-         Hospital (picture & phrases).                      ...  p. 35
-Step 11: Ought to, should;                                  ...  p. 37
-         Communications (picture & phrases).                ...  p. 38
-Step 12: More than, less than, as big as;                   ...  p. 40
-         Tools (picture & phrases).                         ...  p. 41
-Step 13: Oneself. One's own;                                ...  p. 43
-         Post Office (picture & phrases).                   ...  p. 44
-Step 14: Most, -est;                                        ...  p. 46
-         Camping (picture & phrases).                       ...  p. 47
-Step 15: ..., who. ..., which;                              ...  p. 49
-         Apiculture (picture & phrases).                    ...  p. 50
-Step 16: Cause, make, switch on;                            ...  p. 52
-         Tri Andro in Navi (parallel text).                 ...  p. 53
-Step 17: Near Future. Recent Past;                          ...  p. 55
-         Shakespeare (parallel text).                       ...  p. 56
-Step 18: Continue, -ing, still;                             ...  p. 58
-         Some English idioms. Mega Glosa.                   ...  p. 59
-
-         Glosa Mechanics.                                   ...  p. 60
-         Glosa 1000 - English Vocabulary                    ...  p. 61
-         English - Glosa 1000 Vocabulary                    ...  p. 88
-....
+- The Global Language for the Global Village
+- Pronunciation, Alphabet, Punctuation
+- Step 1: A, the; Past and future tenses; numbers, -co, picture
+  crossword.
+- Step 2: Would, if professions, colors, place (words & picture)
+- Step 3: Not, negative. Shops. Living things. Buildings
+- Step 4: Forming questions; Parts of the body; Rings and Things.
+  Vessels.  Furniture.
+- Step 5: What? Which? Greetings, Devices.
+- Step 6: This & that. These & those; Places. Materials. Sets. Thread.
+  Stone; Things to eat (picture page and phrases).
+- Step 7: Get. Become. Got; Opposites. Get & got. Clothes. Cloths;
+  Travel (picture & phrases).
+- Step 8: May, perhaps, must, have to; The house (picture & phrases).
+- Step 9: Time, during; Street scene (picture & text); Psalm 23
+  (parallel text).
+- Step 10: Very, intense; Hospital (picture & phrases).
+- Step 11: Ought to, should; Communications (picture & phrases).
+- Step 12: More than, less than, as big as; Tools (picture & phrases).
+- Step 13: Oneself. One's own; Post Office (picture & phrases).
+- Step 14: Most, -est; Camping (picture & phrases).
+- Step 15: ..., who. ..., which; Apiculture (picture & phrases).
+- Step 16: Cause, make, switch on; Tri Andro in Navi (parallel text).
+- Step 17: Near Future. Recent Past; Shakespeare (parallel text).
+- Step 18: Continue, -ing, still;
+- Some English idioms. Mega Glosa.
+- Glosa Mechanics.
+- Glosa 1000 - English Vocabulary
+- English - Glosa 1000 Vocabulary
 
 == The Global Language for the Global Village
 
