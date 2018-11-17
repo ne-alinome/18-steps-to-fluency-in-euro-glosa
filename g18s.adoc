@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171649
+// Last modified 201811171709
 
 ////
 
@@ -22,6 +22,7 @@ XXX TODO -- Global tasks:
 - Use `…`
 - Add the pictures.
 - Convert Marcel's bracket comments into footnotes.
+- Consult Marcel about the original cover pages
 
 ////
 
@@ -74,96 +75,84 @@ Glosa's presentation on the Internet. There is also a German and an unfinished
 Russian version available.
 
 From the book itself, and from a letter from Wendy Ashby, I draw the
-conclusion, that this book is intended to be THE_official description of Glosa.
+conclusion, that this book is intended to be THE official description of Glosa.
 Thanks to Wendy Ashby for the permission to put this on the net and to Nick
 Hempshall for his comments. Please report errors to [[E-mail address as PNG-
 image]]glosa.org. Thank you.
 
 Marcel Springer, document started 2001, last modified August 2010.
 
-== Cover page
+== Contents of the original cover page
 
-// XXX TODO -- Convert into a list of features.
+18 Steps to Fluency in Euro-Glosa
 
-....
-                                  18 STEPS
-                                to FLUENCY in
+- The interlanguage for Europe and the world.
+- Easily learnt in a few days.
+- Vocabulary of 1000 Greek and Latin roots common to all the
+  euro-languages including russian, and the enormous vocabulary of
+  science.
+- Phonetic spelling.
+- No illogical boring grammar.
+- Infinitely expandable to match rate of scientific advance.
+- Each Glosa word stands for only one concept.
+- Glosa 1000 copes easily with all subjects scientific, technical,
+  commercial & literary.
+- Aids learning of euro-languages.
+- Ideal for education, intelligent tourism and computerization.
 
-                                 EURO-GLOSA
+== Original table of contents
 
-                              THE INTERLANGUAGE
-                          FOR EUROPE AND THE WORLD
-
-                         EASILY LEARNT IN A FEW DAYS
-                  VOCABULARY OF 1000 GREEK AND LATIN ROOTS
-                      COMMON TO ALL THE EURO-LANGUAGES
-                             INCLUDING RUSSIAN,
-                   AND THE ENORMOUS VOCABULARY OF SCIENCE.
-                             PHONETIC SPELLING.
-                        NO ILLOGICAL BORING GRAMMAR.
-                            INFINITELY EXPANDABLE
-                    TO MATCH RATE OF SCIENTIFIC ADVANCE.
-                EACH GLOSA WORD STANDS FOR ONLY ONE CONCEPT.
-                  GLOSA 1000 COPES EASILY WITH ALL SUBJECTS
-                SCIENTIFIC, TECHNICAL, COMMERCIAL & LITERARY.
-                      AIDS LEARNING OF EURO-LANGUAGES.
-                IDEAL FOR EDUCATION, INTELLIGENT TOURISM AND
-                              COMPUTERIZATION.
-....
-
-== Contents
-
-// XXX TODO -- Make the table of contents automatic.
+// XXX TODO -- Move the step descriptions to the actual headings
 
 NOTE: A lot of the word lists and pictures listed in the contents
 table below are not contained in this HTML-version.
 
 ....
-            The Global_Language for the Global Village             ...  p.  4
-            Pronunciation,_Alphabet,_Punctuation                   ...  p.  5
+         The Global Language for the Global Village         ...  p.  4
+         Pronunciation, Alphabet, Punctuation               ...  p.  5
 
-Step_ 1:  A, the; Past and future tenses;                        ...  p.  6
-            numbers, -co, picture crossword.                       ...  p.  7
-Step_ 2:    Would, if                                              ...  p.  9
-            professions, colors, place (words & picture)       ...  p. 10
-Step_ 3:    Not, negative. Shops. Living things. Buildings     ...  p. 12
-Step_ 4:    Forming questions;                                 ...  p. 15
-            Parts of the body; Rings and Things. Vessels.      ...  p. 16
-             Furniture.
-Step_ 5:    What? Which? Greetings, Devices.                   ...  p. 18
-Step_ 6:    This & that. These & those;                        ...  p. 21
-            Places. Materials. Sets. Thread. Stone; Things to
-             eat (picture page and phrases).                 ...  p. 22
-Step_ 7:    Get. Become. Got;;                                 ...  p. 24
-            Opposites. Get & got. Clothes. Cloths;             ...  p. 25
-            Travel (picture & phrases).                        ...  p. 26
-Step_ 8:    May, perhaps, must, have to;                       ...  p. 28
-            The house (picture & phrases).                     ...  p. 29
-Step_ 9:    Time, during;                                      ...  p. 31
-            Street scene (picture & text);                     ...  p. 32
-            Psalm 23 (parallel text).                          ...  p. 33
-Step_10:     Very, intense;                                     ...  p. 34
-            Hospital (picture & phrases).                      ...  p. 35
-Step_11:     Ought to, should;                                  ...  p. 37
-            Communications (picture & phrases).                ...  p. 38
-Step_12:     More than, less than, as big as;                   ...  p. 40
-            Tools (picture & phrases).                         ...  p. 41
-Step_13:     Oneself. One's own;                                ...  p. 43
-            Post Office (picture & phrases).                   ...  p. 44
-Step_14:     Most, -est;                                        ...  p. 46
-            Camping (picture & phrases).                       ...  p. 47
-Step_15:     ..., who. ..., which;                              ...  p. 49
-            Apiculture (picture & phrases).                    ...  p. 50
-Step_16:     Cause, make, switch on;                            ...  p. 52
-            Tri Andro in Navi (parallel text).                 ...  p. 53
-Step_17:     Near Future. Recent Past;                          ...  p. 55
-            Shakespeare (parallel text).                       ...  p. 56
-Step_18:     Continue, -ing, still;                             ...  p. 58
-            Some English idioms. Mega Glosa.                   ...  p. 59
+Step  1: A, the; Past and future tenses;                    ...  p.  6
+         numbers, -co, picture crossword.                   ...  p.  7
+Step  2: Would, if                                          ...  p.  9
+         professions, colors, place (words & picture)       ...  p. 10
+Step  3: Not, negative. Shops. Living things. Buildings     ...  p. 12
+Step  4: Forming questions;                                 ...  p. 15
+         Parts of the body; Rings and Things. Vessels.      ...  p. 16
+         Furniture.
+Step  5: What? Which? Greetings, Devices.                   ...  p. 18
+Step  6: This & that. These & those;                        ...  p. 21
+         Places. Materials. Sets. Thread. Stone; Things to
+         eat (picture page and phrases).                    ...  p. 22
+Step  7: Get. Become. Got;;                                 ...  p. 24
+         Opposites. Get & got. Clothes. Cloths;             ...  p. 25
+         Travel (picture & phrases).                        ...  p. 26
+Step  8: May, perhaps, must, have to;                       ...  p. 28
+         The house (picture & phrases).                     ...  p. 29
+Step  9: Time, during;                                      ...  p. 31
+         Street scene (picture & text);                     ...  p. 32
+         Psalm 23 (parallel text).                          ...  p. 33
+Step 10: Very, intense;                                     ...  p. 34
+         Hospital (picture & phrases).                      ...  p. 35
+Step 11: Ought to, should;                                  ...  p. 37
+         Communications (picture & phrases).                ...  p. 38
+Step 12: More than, less than, as big as;                   ...  p. 40
+         Tools (picture & phrases).                         ...  p. 41
+Step 13: Oneself. One's own;                                ...  p. 43
+         Post Office (picture & phrases).                   ...  p. 44
+Step 14: Most, -est;                                        ...  p. 46
+         Camping (picture & phrases).                       ...  p. 47
+Step 15: ..., who. ..., which;                              ...  p. 49
+         Apiculture (picture & phrases).                    ...  p. 50
+Step 16: Cause, make, switch on;                            ...  p. 52
+         Tri Andro in Navi (parallel text).                 ...  p. 53
+Step 17: Near Future. Recent Past;                          ...  p. 55
+         Shakespeare (parallel text).                       ...  p. 56
+Step 18: Continue, -ing, still;                             ...  p. 58
+         Some English idioms. Mega Glosa.                   ...  p. 59
 
-            Glosa_Mechanics.                                   ...  p. 60
-            Glosa 1000 - English Vocabulary                  ...  p. 61
-            English - Glosa 1000 Vocabulary                  ...  p. 88
+         Glosa Mechanics.                                   ...  p. 60
+         Glosa 1000 - English Vocabulary                    ...  p. 61
+         English - Glosa 1000 Vocabulary                    ...  p. 88
 ....
 
 == The Global Language for the Global Village
@@ -1120,7 +1109,7 @@ ____
 
 // ... [missing: Things to Eat (picture)]
 
-// Things to Eat - A_Few_Phrases
+// Things to Eat - A Few Phrases
 
 |===
 | mixa u margarina e sukro-ma   | cream the margarine and sugar
@@ -1205,7 +1194,7 @@ ____
 
 // ... [missing: Travel - 4 pictures with words]
 
-// Travel - A_Few_Phrases
+// Travel - A Few Phrases
 
 // XXX FIXME -- Consult:
 //
@@ -1324,7 +1313,7 @@ ____
 
 // ... [missing: The House - picture with words]
 
-// The House - A_Few_Phases
+// The House - A Few Phases
 
 |===
 | merka tu domi                    | buy your house
@@ -1597,7 +1586,7 @@ e poste panto-ci es plu tele-buna(47).
 // ... [missing: picture with a hospital scene]
 // ... [missing: word list to the hospital scene picture]
 
-// Hospital - A_Few_Phrases
+// Hospital - A Few Phrases
 
 |===
 | Mi ne este sani.                                   | I don't feel well.
@@ -1718,7 +1707,7 @@ ____
 // ... [missing: picture with things about communication]
 // ... [missing: word list to the picture]
 
-// Communications - A_Few_Phrases
+// Communications - A Few Phrases
 
 |===
 | viagia peri munda                     | travel around the world
@@ -1817,7 +1806,7 @@ ____
 // ... [missing: picture with tools]
 // ... [missing: word list to the picture]
 
-// Tools - A_Few_Phrases
+// Tools - A Few Phrases
 
 |===
 | Male un aku.               | Hammer a nail.
@@ -2030,7 +2019,8 @@ XXX TODO -- Note by Marcos.]
 | 50 | rota-side           | wheel chair
 |===
 
-// Post Office - A_Few_Phrases
+// XXX TODO -- Separate both tables. Add captions?
+// Post Office - A Few Phrases
 
 |===
 | grafo u grama                              | write a letter
@@ -2126,7 +2116,7 @@ XXX TODO -- Note by Marcos.]
 // ... [missing: picture with camping]
 // ... [missing: word list to the picture]
 
-// Camping - A_Few_Phrases
+// Camping - A Few Phrases
 
 |===
 | ana u te-do                                            | pitch a tent
@@ -2227,7 +2217,7 @@ andro; mi pa vide [qi]; akti ..._]
 // ... [missing: picture about apiculture ]
 // ... [missing: word list to the picture]
 
-// Apiculture - A_Few_Phrases
+// Apiculture - A Few Phrases
 
 |===
 | topo un api-do                                 | siting a hive
@@ -2789,8 +2779,9 @@ into one of the larger dictionaries for a word which comes first to mind; or
 perhaps because a longer or more exotic word under special circumstances is
 preferable.
 
+// XXX TODO -- Add `note:` and link
 // ... [missing: vocabulary list English - Glosa 1000. Please refer to the Glosa
-// Internet_Dictionary for the words.]
+// Internet Dictionary for the words.]
 
 // ... [missing: Glosa publications]
 
@@ -2803,8 +2794,9 @@ preferable.
 
 == Glosa 1000 - English
 
+// XXX TODO -- Add `note:` and link
 // ... [missing: vocabulary list Glosa 1000 - English. Please refer to the Glosa
-// Internet_Dictionary for the words.]
+// Internet Dictionary for the words.]
 
 ////
 === Key to Exercises
@@ -2844,7 +2836,7 @@ Kruci-Verba, Step 13:
 
 ////
 
-== Cover page
+== Contents of the original cover page
 
 GLOSA +
 FOR WORLD COMMUNICATION, EDUCATION +
