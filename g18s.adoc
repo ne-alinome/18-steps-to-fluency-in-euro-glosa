@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172054]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172105]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -7,7 +7,7 @@ e-book version by Marcos Cruz (2018)
 :toc-levels: 3
 
 // =============================================================
-// XXX TODO -- Global tasks
+// XXX TODO
 
 ////
 
@@ -24,7 +24,8 @@ e-book version by Marcos Cruz (2018)
 - Add the pictures.
 - Consult Marcel about the original cover pages
 - "(=" --> "(" and "/" ?
-- Fix the e-mails.
+- Consult Marcel about the e-mail address format.
+- Consult Marcel about Gary Miller's e-mail and printing service.
 - Add the "Pikto-Verba" and other exercises.
 - Review usage of full stops in quotes in English.
 
@@ -105,9 +106,9 @@ You can buy the book from Wendy Ashby (c/o Glosa Education 35 Wingfield Road;
 Kingston Upon Thames; Surrey KT2 5LR; ENGLAND). By purchasing this £8.95 book,
 you will be helping Glosa to grow.
 
-USA-citizens can buy a paper copy of this HTML-document from Gary Miller ([[E-
-mail address of
-Gary as PNG-image]]) for 5{nbsp}USD plus shipping.
+USA-citizens can buy a paper copy of this HTML-document from Gary
+Miller (jusli[a dot here]miller[the at sign]juno[another dot]com) for
+5{nbsp}USD plus shipping.
 
 This file does not contain the whole book, and does not aim to. Though all the
 sample sentences and rules have been included, only Steps 1-3, 5, 9, 13 and 16-
@@ -119,8 +120,8 @@ Russian version available.
 From the book itself, and from a letter from Wendy Ashby, I draw the
 conclusion, that this book is intended to be THE official description of Glosa.
 Thanks to Wendy Ashby for the permission to put this on the net and to Nick
-Hempshall for his comments. Please report errors to [[E-mail address as PNG-
-image]]glosa.org. Thank you.
+Hempshall for his comments. Please report errors to
+m001[the at sign]glosa[a dot here]org. Thank you.
 
 Marcel Springer, document started 2001, last modified August 2010.
 
