@@ -1,29 +1,29 @@
-= 18 Steps to Fluency in Euro-Glosa
+= 18 Steps to Fluency in Euro-Glosa (e-book draft last modified 201811172025)
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
-Asciidoctor version by Marcos Cruz (programandala.net) (2018)
-:revadate: 2018-11-15
+e-book version by Marcos Cruz (2018)
+:revadate: 2018-11-17
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171916
+// =============================================================
+// XXX TODO -- Global tasks
 
 ////
 
-XXX TODO -- Global tasks:
-
-- Consult the Marcel about the note of "stilo".
+- Consult Marcel about the note on "stilo".
 - Ask Marcel if second option in "Qe Glosa es tu lingua bi? / Qe Glosa
   es u lingua bi de tu?" was added by him.
-- Use curved quotes.
-- Use italics.
+- Use curved quotes (but somehow they are not rendered in footnotes).
+  Use italics instead?
 - Combine repeated footnotes.
 - Add the pictures.
 - Convert Marcel's bracket comments into footnotes.
 - Consult Marcel about the original cover pages
-- "(=" --> "("
-- Fix the e-mails of Garry Miller and Marcel Springler.
+- "(=" --> "(" and "/" ?
+- Fix the e-mails.
 - Add the "Pikto-Verba" and other exercises.
+- Review usage of full stops in quotes in English.
 
 ////
 
@@ -46,23 +46,45 @@ XXX TODO -- Global tasks:
 
 // =============================================================
 
-== About the Asciidoctor conversion
+== About this e-book
 
-// XXX TODO --
-
-// XXX TODO -- page numbers removed
-// XXX TODO -- usage of quotes and slashes
 // XXX TODO -- missing final vowel [will be] corrected, e.g. skop, dic
 
-NOTE: This section is a draft.
+NOTE: This section is unfinished. It is a draft.
 
-About the notes added by Marcel Springer in the HTML document:
+The origin of this e-book was just the idea to make the
+http://glosa.org/en/g18s.htm[HTML version of _18 Steps to Fluency in
+Euro-Glosa_] easier to read with an e-book reader, in order to
+facilitate my studing of the Glosa language.
 
-- The notes about errors in the original paper edition have been removed.
-- Notes about alternative wordings have been adapted and preserved,
-  converted into footnotes or into additional entries in their table.
-- For legibility, some examples with alternatives have been splitted into
-  individual entries.
+I converted the HTML into to http://asciidoctor.org[Asciidoctor], an
+easy and powerful markup and text processor.  Asciidoctor documents,
+which are plain text, are easily translated into other formats.  The
+first goal of the Asciidoctor document was just to get an improved
+HTML document out of it, more suitable for an e-book reader. Then I
+realized the result could be useful also to other people interested in
+the Glosa language, especially because, beside and improved version of
+the text published in http://glosa.org[glosa.org], good loking
+documents in other popular formats could be created from the same
+source as well: EPUB, PDF, ODT and others.
+
+Changes to the HTML version:
+
+- The notes about errors of the original paper edition, which were
+  corrected in the HTML edition, have been removed.
+- The notes about alternative wordings have been preserved and
+  adapted, i.e. converted into footnotes or additional examples.
+- For legibility, some examples with alternatives have been splitted.
+- The use of quotes, parens, slashes, hard spaces, etc., has been
+  homogenized.
+- Several typos have been corrected.
+- The notes with the page numbers of the original paper book have been
+  removed.
+
+Thanks to Marcel Springler for his long work preserving the contents
+of the the original paper book.
+
+Marcos Cruz (alinome.net), 2018-11.
 
 == Foreword by the HTML-Writer
 
