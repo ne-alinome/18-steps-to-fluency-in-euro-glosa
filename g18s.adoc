@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171709
+// Last modified 201811171810
 
 ////
 
@@ -15,7 +15,6 @@ XXX TODO -- Global tasks:
 - Consult the Marcel about the note of "stilo".
 - Ask Marcel if second option in "Qe Glosa es tu lingua bi? / Qe Glosa
   es u lingua bi de tu?" was added by him.
-- Credit the author of the footnotes.
 - Use curved quotes.
 - Use italics.
 - Combine repeated footnotes.
@@ -23,12 +22,40 @@ XXX TODO -- Global tasks:
 - Add the pictures.
 - Convert Marcel's bracket comments into footnotes.
 - Consult Marcel about the original cover pages
+- "(=" --> "("
+- Fix the e-mails of Garry Miller and Marcel Springler.
+- Add the "Pikto-Verba" and other exercises.
 
 ////
+
+// =============================================================
+// Footnote credits
+
+// The following Asciidoctor attributes are defined to be included at
+// the end of the corresponding footnotes, in order to make clear the
+// origin of the notes.
+
+// XXX OLD -- First version:
+//:htmlnote: (Note to the HTML edition).
+//:adocnote: (Note to the Asciidoctor edition).
+
+// XXX REMARK -- This is more versatile, because notes from
+// other contributors can be credited as well, no matter the future
+// edition or format of the document:
+:by_ms: (Note by Marcel Springer).
+:by_mc: (Note by Marcos Cruz).
+
+// =============================================================
 
 == About the Asciidoctor conversion
 
 // XXX TODO --
+
+// XXX TODO -- page numbers removed
+// XXX TODO -- usage of quotes and slashes
+// XXX TODO -- missing final vowel [will be] corrected, e.g. skop, dic
+
+NOTE: This section is a draft.
 
 About the notes added by Marcel Springer in the HTML document:
 
@@ -37,15 +64,6 @@ About the notes added by Marcel Springer in the HTML document:
   converted into footnotes or into additional entries in their table.
 - For legibility, some examples with alternatives have been splitted into
   individual entries.
-
-// XXX TODO -- About future corrections:
-
-// |===
-// | Original | Corrected
-
-// | skop | skope
-// | dic  | dice
-// |===
 
 == Foreword by the HTML-Writer
 
@@ -607,17 +625,17 @@ need for it to be followed by u(n), the article.
 | Loka id in teka                                 | Put it in the box
 | An eko kontra na                                | He lives opposite us
 | In e peri urba                                  | In and around town
-| Sti id pende afootnote:[Other prepositions are also possible: "de", "epi", "kata".] mura
+| Sti id pende afootnote:[Other prepositions are also possible: "de", "epi", "kata". {by_ms}] mura
 | Hang it on the wall
 | Registra epi flexi disko                        | Record on to a floppy disk.
 | Fe pa loka u mantela epi se.                    | She put on her coat
-| Skope u programa perfootnote:[Other prepositions would be possible, too: "ex", "in", "a", "de", "epi".] TV.
+| Skope u programa perfootnote:[Other prepositions would be possible, too: "ex", "in", "a", "de", "epi". {by_ms}] TV.
 | Watch a program on TV
-| Viagia transfootnote:[Original says "dia".])rura.
+| Viagia transfootnote:[Original says "dia". {by_ms}] rura.
 | Travel through the countryside.
 | Kribri id.                                      | Strain it through the sieve.
 | Hidro flu dia tubi.                             | Water flows through the tube.
-| Un avi pa petifootnote:[Original says "vola".] supra dendro.
+| Un avi pa petifootnote:[Original says "vola". {by_ms}] supra dendro.
 | The bird flew over the tree.
 | Ki infra ponti.                                 | Go under the bridge.
 | An pa dromo trans via.                          | He ran across the road.
@@ -685,11 +703,12 @@ time, eg.
 | pani-bo                                             | baker's shop
 | bibli-bo                                            | book shop
 | karni-bo                                            | butcher's
-| medika-ma-bofootnote:[Or "farmako-bo". Original says "kemi-bo".)
+| medika-ma-bofootnote:[Or "farmako-bo". Original says "kemi-bo". {by_ms}]
 | chemist's
 | flori-bo                                            | florist's
 | frukti-bo                                           | fruiterer's
-| sito-fito-bofootnote:[Original says "kloro-bo".]    | green grocer's
+| sito-fito-bofootnote:[Original says "kloro-bo". {by_ms}]
+| green grocer's
 | sani-bo                                             | health shop
 | gema-bo                                             | jeweller's
 | piski-bo                                            | fish-shop
@@ -931,7 +950,7 @@ There are several alternatives to the everyday phrases below, and the advanced
 Glosa dictionaries provide plenty of synonyms for variety.
 
 :fecivi_note: The abbreviation "Sa." seems \
-to belong to both, Siniora and Siniorina.  A better \
+to belong to both, "Siniora" and "Siniorina".  A better \
 suggestion for a honorific word would be "Civi" \
 (citizen), that can be used for both genders, or you \
 can specify "an-Civi", "fe-Civi", "ju-fe-Civi", if you \
@@ -949,7 +968,7 @@ genders, or you can specify "an-Civi", "fe-Civi", "ju-fe-Civi", if you need.
 | Saluta!                                              | Hullo! Welcome!
 | Plu Saluta!                                          | Greetings!
 | Komo tu?                                             | How are you?
-| Qe tu habe sani?footnote:[Original says "Qe tu es bene?".]
+| Qe tu habe sani?footnote:[Original says "Qe tu es bene?". {by_ms}]
 | Are you well?
 | Ave!                                                 | Hullo!
 | Vale!                                                | Goodbye!
@@ -972,8 +991,10 @@ genders, or you can specify "an-Civi", "fe-Civi", "ju-fe-Civi", if you need.
 | No! Ja!                                              | No! Yes!
 | Penite! pardo!                                       | Sorry! Excuse me!
 | No-gravi!                                            | It's quite alright!
-| Siniora. Siniorina (Sa.)footnote:[{fecivi_note}]     | Mrs. Miss (Ms)
-| Sinior (Sr.)footnote:[{ancivi_note}]                 | Mr.
+| Siniora. Siniorina (Sa.)footnote:[{fecivi_note} {by_ms}]
+| Mrs. Miss (Ms)
+| Sinior (Sr.)footnote:[{ancivi_note} {by_ms}]
+| Mr.
 | Qe?                                                  | Isn't it?
 | Qe, veri?                                            | Really?
 | A tu sinceri                                         | Yours sincerely
@@ -1217,7 +1238,7 @@ ____
 | Tu trena ki ab plata tri a 14:00 horo. | Your train departs from platform 3 at 14:00 hrs.
 | Qo-lo na nece kambio?                  | Where do we have to change?
 | prima klasi                            | first class
-| klasi bifootnote:[Original says "sekunda klasi".]
+| klasi bifootnote:[Original says "sekunda klasi". {by_ms}]
 | second class
 | tako, lento                            | fast, slow
 | prima trena de di, ultima trena de di  | early train, late train
@@ -1454,7 +1475,7 @@ A gono(4)es u posta-teka(5). U-ci hab u stoma(6)ad-in qi pe bali plu grama.
 Infra stoma es un horo-tabula(6a); qi indika plu kolekti-horo. Poste posta-teka
 es u pani-bo(7); e supra u-ci u strata-nima ... Ponti via.
 
-Il es bi pla postefootnote:[Original says "intra"] fenestra(10). Epi supra pla es plu pani
+Il es bi pla postefootnote:[Original says "intra" {by_ms}] fenestra(10). Epi supra pla es plu pani
 (11); e epi infra-pla es plu plaka(12). Ante boteka u gina(13)gresi longi pedi-
 via. Fe fero u boteka-saka(14)in dextro manu; e per laevo manu fe trakto u
 rota-saka(15). Ma tele u porta(16)fero u karta(17). Ultra porta es u fenestra
@@ -1466,9 +1487,9 @@ ma-tele, u kinema-porta(25).
 Nu, skop u dextro pedi-via(2). Prima, il es u vesti-bo(26); e supra u-ci u
 fago-do(27). Extra vesti-bo es u bus sto(28)e u sto-pali(29); qi fero un horo-
 tabula(30). A pedi de pali es u rudi-va(31). Supra boteka-fenestra es bi
-insignia(32). Il es bi plus boteka longi u-ci dextro latu, u sito-fito-bofootnote:[Original says "kloro-bo"](33)
+insignia(32). Il es bi plus boteka longi u-ci dextro latu, u sito-fito-bofootnote:[Original says "kloro-bo" {by_ms}](33)
 e u piski-bo(34). Supra u-ci es u kamera-fa(35); e
-supra sito-fito-bofootnote:[Original says "kloro-bo"] es u denti-ka(36). Pe vide u denti-pe(37)
+supra sito-fito-bofootnote:[Original says "kloro-bo" {by_ms}] es u denti-ka(36). Pe vide u denti-pe(37)
 e u pato-pe(38). Extra piski-bo(34) ad u singu-fini de
 pedi-kruci(19)es plu sema-lampa(39). Ma-tele es u latu-via(40); a proxi
 gono es u strata-lampa(41). A ma-tele gono es u banka(42)e
@@ -1544,12 +1565,12 @@ e poste panto-ci es plu tele-buna(47).
 | Mi doxo; id es u forti interese landa. | I believe it is a very interesting country.
 | Na pa eko forti proxi Paris.           | We lived very near to Paris.
 | An pa veni a Paris per trena.          | He came to Paris by train.
-| An pa trena a Paris.                   | He 'trained' to Paris.
+| An pa trena a Paris.                   | He "trained" to Paris.
 | An pa trena ab London.                 | He went by train from London.
 | Na pa unio kon an a tri horo.          | We met him (by appointment) at three.
 | Na pa inkontra fe a tri horo.          | We met her (by chance) at three.
 | Fe pa stude plu Glosa verba.           | She studied the Glosa vocabulary.
-| Per Glosa 1000 pe pote grafo alo dice de panto temafootnote:[Original says "de ali tema".]. 
+| Per Glosa 1000 pe pote grafo alo dice de panto temafootnote:[Original says "de ali tema". {by_ms}]. 
 | By means of Glosa 1000 you can write or speak on any theme.
 | Glosa es fo kongru pro plu puta-me.    | Glosa is very suitable for computers.
 | Plura Glosa-pe komunika per puta-me nexu.
@@ -1603,7 +1624,7 @@ e poste panto-ci es plu tele-buna(47).
 | Loka unktu-ma epi vulne.                           | Put ointment on the wound.
 | Qe u-ci medika-ma funktio?                         | Is this medicine effective?
 | Seis u botilia pre uti.                            | Shake the bottle before use.
-| Bibe bi spatula de medika-ma bi kron singu di.footnote:[Original says "Bibe bi spatula-ple bi kron u di."]
+| Bibe bi spatula de medika-ma bi kron singu di.footnote:[Original says "Bibe bi spatula-ple bi kron u di." {by_ms}]
 | Take two spoonfuls twice a day.
 | po vora                                            | after meals
 | pre vora                                           | before meals
@@ -1675,19 +1696,19 @@ ____
 |===
 | Qe tu pote dice Glosa?                 | Can you speak Glosa?
 | Dona bi karta a singu sporta-pe.       | Give two cards to each player.
-| Qe tu pote lava bi-ci vitri-vafootnote:[Original says only "vitri".], place? 
+| Qe tu pote lava bi-ci vitri-vafootnote:[Original says only "vitri". {by_ms}], place? 
 | Please can you wash these two glasses?
-| Panto-pe debi bibe tri mega vitri-vafootnote:[Original says only "vitri".] de hidro singu di.
+| Panto-pe debi bibe tri mega vitri-vafootnote:[Original says only "vitri". {by_ms}] de hidro singu di.
 | Everyone should drink three large glasses of water every day.
 | Qe tu permito mi sporta tenis nu-di?   | Can I play tennis today?
 | Tu volu bibe qo-ma?                    | What would you like to drink?
 | Qe mi lice habe u tasa de tea, place?  | Can I have a cup of tea, please?
 | Fe pa debi dice a tu de id.            | She ought to have told you about it.
 | Qe tu doxo; mi debi ki a medika-pe?    | Do you think I should go to the doctor?
-| ge-va fruktifootnote:[Original says "va frukti".]
+| ge-va fruktifootnote:[Original says "va frukti". {by_ms}]
 | tinned fruit
 | An es pato; mi debi visita an.         | He is ill. I ought to visit him.
-| U vitri-vafootnote:[Original says only "vitri".]pa es ge-noku. 
+| U vitri-vafootnote:[Original says only "vitri". {by_ms}]pa es ge-noku. 
 | The glass was damaged.
 | Qe tu permito mi uti tu sue-me?        | May I use your sewing-machine?
 | U-ci tasa habe zero manu-ra.           | This cup hasn't a handle.
@@ -1718,7 +1739,7 @@ ____
 | gene info                             | receive information
 | skop u video                          | watch a video
 | registra epi kaseta                   | record a cassette
-| telefono footnote:[Original says "face u foni-kla".]
+| telefono footnote:[Original says "face u foni-kla". {by_ms}]
 | make a phone call
 | kompos u numera                       | dial a number
 | komposi toni                          | dialling tone
@@ -1925,7 +1946,7 @@ ____
 
 :accustomed_note: This is an \
 advice for a Glosa student: "You should (ought to) quickly get ..." . \
-As an expactation of likely outcome \
+As an expectation of likely outcome \
 the sentence would be: "More pe gene tako more Glosa kogita". \
 
 |===
@@ -1936,7 +1957,7 @@ the sentence would be: "More pe gene tako more Glosa kogita". \
 | auto-ergo-pe                                  | self-employed person
 | Qe tu memo u-la gluko vespera?                | Do you remember that nice evening?
 | Qo preci u grama a ... ?                      | How much does a letter cost to ... ?
-| Tu debi gene tako more Glosa kogita.          | You should quickly get accustomed thinking in Glosa.footnote:[{accustomed_note}]
+| Tu debi gene tako more Glosa kogita.          | You should quickly get accustomed thinking in Glosa.footnote:[{accustomed_note} {by_ms}]
 | Mi qestio se; qe an fu veni.                  | I wonder whether he will come.
 | U-ci vagona kine fo tako.                     | This car goes very fast.
 | Mi spe visita plu viki de Afrika.             | I hope to visit some African villages.
@@ -2013,7 +2034,7 @@ the sentence would be: "More pe gene tako more Glosa kogita". \
 means "pen", "ball-point pen" and "style" (from Latin "stilus", i.e.
 the instrument used by the ancients in writing on tablets covered with
 wax). Other meanings of the English word "style" are expressed in Glosa by "mode".
-XXX TODO -- Note by Marcos.]
+{by_mc}]
 | pen
 | 49 | ge-lento pe         | disabled person
 | 50 | rota-side           | wheel chair
@@ -2123,7 +2144,7 @@ XXX TODO -- Note by Marcos.]
 | kata u te-do                                           | strike the tent
 | elekt u topo                                           | choose a site
 | ple u dorsa-saka                                       | pack a ruck-sack
-| ma-boni loka plu fifootnote:[Original says "fixa plu fi".]
+| ma-boni loka plu fifootnote:[Original says "fixa plu fi". {by_ms}]
 | adjust the straps
 | fix u fixa-ra                                          | fasten the buckle
 | a skuta                                                | leaward
@@ -2137,7 +2158,7 @@ XXX TODO -- Note by Marcos.]
 | ple un aqa-va                                          | fill the water carrier
 | repara-fa                                              | repair kit
 | obe u rura konsilifootnote:[Another suggestion: "akti boni, kron
-tu visita u rura". Original says "obe u rura kodi".]
+tu visita u rura". Original says "obe u rura kodi". {by_ms}]
 | obey the country code
 |===
 
@@ -2206,11 +2227,11 @@ ____
 NOTE: When "who" or "which" are the object of a clause they are
 usually left out in English. In Glosa we always leave them out.
 Instead of saying; "The man WHOM I saw yesterday" we say "The man I
-saw yesterday".footnote:[Note: This is a bad rule for an International
-Auxiliary Language. The relative pronoun, _qi_, should be permitted, in
+saw yesterday".footnote:[This is a bad rule for an International
+Auxiliary Language. The relative pronoun, "qi", should be permitted, in
 speech and in writing, even when its function in the sentence does not
-allow it a position at the beginning of the relative clause: _Un
-andro; mi pa vide [qi]; akti ..._]
+allow it a position at the beginning of the relative clause: "Un
+andro; mi pa vide (qi); akti ..." {by_ms}]
 
 === Apiculture
 
@@ -2238,18 +2259,19 @@ andro; mi pa vide [qi]; akti ..._]
 | kapti u grega                                  | catch a swarm
 | U fe-regi bali plu ova.                        | The queen bee lays eggs.
 | Plu ergo-api kura plu ova.                     | Workers tend eggs.
-| apo u ponti-cerufootnote:[Original says "ponti-cera".]
+| apo u ponti-cerufootnote:[Original says "ponti-cera". {by_ms}]
 | scrape away the brace comb
 | Plu ergo-api face plu celu.                    | Worker bees make cells.
 | loka fe-regi exklude-ra supra plu larvafootnote:[Original says only
-"loka exklude-ra supra plu larva".]
+"loka exklude-ra supra plu larva". {by_ms}]
 | put queen excluder on the brood
 | no-face un api-do                              | dismantle the hive
 | re-face un api-do                              | reassemble the hive
 | ergo-api                                       | worker-bee
 | explora-api                                    | scout--bee
 | sito-api                                       | forager-bee
-| peti viafootnote:[Original says "vola via".]   | flight path
+| peti viafootnote:[Original says "vola via". {by_ms}]
+| flight path
 | api kore                                       | bee dance
 | kolekti nektari                                | collect nectar
 | kolekti polina                                 | collect pollen
@@ -2263,7 +2285,7 @@ andro; mi pa vide [qi]; akti ..._]
 | U tetrapoda es u bio-ra; qi habe tetra poda.   | A tetrapod is a creature; which has four legs.
 | U-ci es u gina; qi eko u-la mega domi proxi religio-do. 
 | This is the lady; who lives in that big house near the church.
-| Bibe u-ci medika-ma tri kron singu di.footnote:[Original says "(...) tri kron u di".]
+| Bibe u-ci medika-ma tri kron singu di.footnote:[Original says "(...) tri kron u di". {by_ms}]
 | Take this medicine three times a day.
 | No! mi ne amo u-ci speci medika-ma.            | No! I don't like this kind of medicine.
 | Tu feno subo leuko.                            | You look rather pale.
@@ -2288,7 +2310,7 @@ andro; mi pa vide [qi]; akti ..._]
 | apo u lingua sto-ra                        | remove the language barrier
 | sti u valva                                | turn on the tap
 | Fe pa kade ex equs; e u-la pa sti ridi an. She fell off the horse and that made him laugh.
-| Mi ne pote sto se ridi.footnote:[This sentence is supplemented and not in the original.]
+| Mi ne pote sto se ridi.footnote:[This sentence is supplemented and not in the original. {by_ms}]
 | I can't help laughing.
 | An pa vexa fe.                             | He annoyed her.
 | Na nece sti logi u demo u gravi de Glosa.  | We must make people understand the importance of Glosa.
@@ -2326,18 +2348,18 @@ andro; mi pa vide [qi]; akti ..._]
 | Id es gravi; na vora sani fago-ma.     | It is important to eat healthy food.
 | Tu nece sti vora an. 
 | You have to make him eat.footnote:[Original says "You must try to make him
-eat.", but that would be in Glosa "Tu debi tenta sti vora an".]
+eat.", but that would be in Glosa "Tu debi tenta sti vora an". {by_ms}]
 | Tu debi tenta sti vora an.footnote:[This sentence is supplemented
-and not in the original. XXX TODO -- NOTE by Marcos.]
+and not in the original. {by_mc}]
 | You must try to make him eat.
 | An pa face plu kali fotografi.         | He made some beautiful photographs.
 | Fe pa sti u valva.                     | She turned on the tap.
 | Tu ne lice casa plu zoa.footnote:[Original says "Tu ne nece casa plu zoa"
-but that would be "You don't need to chase the animals". ]
+but that would be "You don't need to chase the animals". {by_ms}]
 | You must not chase the animals.
 | Tu ne nece casa plu zoa
 | You don't need to chase the animals.footnote:[This sentence is
-supplemented and not in the original. XXX TODO -- NOTE by Marcos]
+supplemented and not in the original. {by_mc}]
 | Qe tu habe, per fortuna, u plus teka?  | Do you by chance have an extra box?
 | Sura fe pa veni; tem na pa es ab.      | She must have arrived while we were out.
 | Mi ne pa pote sto ridi.                | I couldn't stop laughing.
@@ -2357,10 +2379,10 @@ From "Three Men in a Boat" by Jerome K. Jerome. English version after Glosa
 text.
 
 Minus sinapi, panto-na in navi pa este melankolifootnote:[Original
-says "Na pa no-memo de pak u sinapi; qi sti melankoli panto-na".] Na
+says "Na pa no-memo de pak u sinapi; qi sti melankoli panto-na". {by_ms}] Na
 pa vora u bovi in silenti. U vita nu pa feno vaku e no-stimula. Na pa
 memo plu hedo di de infanti-tem; e ko tristi-senti spira exfootnote:[Original
-says "...; e senti tristi".]. Anti-co, na gene ma hedo ko pomi pastata;
+says "...; e senti tristi". {by_ms}]. Anti-co, na gene ma hedo ko pomi pastata;
 e, kron George pa trakto u stani-va de Ananas ex funda de sito-va; e
 pa volve id a meso-navi; na pa senti, anti-co, vita es ne mali.
 Panto-na amo Ananas. Na pa examina u pikto epi stani-va; na pa pensi
@@ -2374,21 +2396,21 @@ epi ripa, e seiso mu. Zero aperi-ru.
 Harris tenta apri u vasa per marsu kultela; pa frakti u kultela; e
 seka se mali. George tenta ko cisori, qi peti ana; e proxi cieko an.
 Tem mu pa du kura plu vulne; mi pa tenta fac u fora in id
-perfootnote:[Original says _ko_.] metali spika; qi glisa e bali mi ex
+perfootnote:[Original says "ko". {by_ms}] metali spika; qi glisa e bali mi ex
 inter navi e ripa ad-in mo metra de limo aqa; e u vasa volve
-ne-ge-vulnefootnote:[Original says "no-ge-vulne".], e frakti u tea- tasa.
+ne-ge-vulnefootnote:[Original says "no-ge-vulne". {by_ms}], e frakti u tea- tasa.
 
 Panto-na pa gene rabi. Na pa leva u-la vasa; e fero id ex ad-epi ripa; e Harris
 ki ana ad-in agri; e detekti u mega akuto lito; e mi ki versi ad-in navi; e
 fero u pali. George pa tena u vasa; e Harris pa tena un akuto akro de lito epi
-supra;footnote:[Original says "... tena un aku fini de lito epi supra;".]e mi pa prende u
+supra;footnote:[Original says "... tena un aku fini de lito epi supra;". {by_ms}]e mi pa prende u
 pali; leva id alti in aero; e kon holo dina mi trakto id kata.
 Id pa es George stra kefa-ve; qi salva an vita u-la di. [...] Harris veni ex ko
 solo u karni vulne.
 
 Po-co, mi auto pa levafootnote:[Original says "fero ... a dista topo", but in the English
-original they seem to stay in the same place.] u stani-vafootnote:[Original says only
-"stani".]; e pa bate id ko pali; a-kron mi pa lose mi dina; e pa lose panto spe; e
+original they seem to stay in the same place. {by_ms}] u stani-vafootnote:[Original says only
+"stani". {by_ms}]; e pa bate id ko pali; a-kron mi pa lose mi dina; e pa lose panto spe; e
 Harris pa prende id e dura bate id.
 
 Na pa bate id plati; na pa bate id versi qadra; na pa bate id ad-in panto forma
@@ -2643,9 +2665,9 @@ just about to go out."
 | I was speaking to her when the telephone rang.
 | An pa ergo in Afrika tem poli anua.  | He had worked in Africa for many years.
 | Kron na pa veni; an pa du ki ex. 
-| When we arrived; he was leaving.footnote:[{leaving_note}]
+| When we arrived; he was leaving.footnote:[{leaving_note} {by_ms}]
 | Na pa veni; iso-kron an pa proto ki ex.
-| When we arrived; he was just going out.footnote:[{leaving_note}]
+| When we arrived; he was just going out.footnote:[{leaving_note} {by_ms}]
 | U-ci es u gina; tu pa du dic a.      | This is the lady you were talking to.
 | Mi pa du grafo; kron an pa sti kade u grafo-liqi ad epi mi grama.
 | I was writing when he spilt the ink on to my letter.
@@ -2785,7 +2807,7 @@ preferable.
 
 // ... [missing: Glosa publications]
 
-// XXX OLD
+// XXX OLD -- Removed, because it's already on the cover.
 // "The world-wide vocabulary of Science is the nearest thing to the lexicon of a
 // truly global Language that mankind has yet achieved. It derives its words from
 //                     two dead languages - Greek and Latin."
