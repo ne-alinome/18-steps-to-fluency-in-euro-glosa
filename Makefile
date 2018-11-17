@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811171523
+# Last modified 201811171936
 # See change log at the end of the file
 
 # ==============================================================
@@ -26,6 +26,9 @@ all: epub html odt pdf
 clean:
 	rm -f $(target)/
 
+.PHONY: docbook
+docbook: $(target)/g18s.adoc.xml
+
 .PHONY: epub
 epub: $(target)/g18s.adoc.xml.pandoc.epub
 
@@ -45,7 +48,7 @@ rtf: $(target)/g18s.adoc.xml.pandoc.rtf
 # Convert to DocBook
 
 $(target)/g18s.adoc.xml: g18s.adoc
-	asciidoctor --backend=docbook45 --out-file=$@ $<
+	asciidoctor --backend=docbook5 --out-file=$@ $<
 
 # ==============================================================
 # Convert to EPUB
