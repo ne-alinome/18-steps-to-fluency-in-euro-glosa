@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171903
+// Last modified 201811171916
 
 ////
 
@@ -2653,10 +2653,13 @@ ____
 // XXX FIXME -- Asciidoctor does not render curve quotes ("`…`") in
 // notes?
 
-:leaving_note: Original says "When we arrived; he was \
+:when_we_arrived_note_1: Original says "When we arrived; he was \
 just going out.", but that would be in Glosa "Na pa veni; iso-kron an pa proto ki \
 ex." And: "Kron na pa veni; an pa prepara ki ex." would be "When we arrived; he was \
 just about to go out."
+
+:when_we_arrived_note_2: This sentence is supplemented and not in the original. \
+It was written after Marcel Springler's previous note.
 
 |===
 | An du stude Deutsch.                 | He is still studying German.
@@ -2664,9 +2667,9 @@ just about to go out."
 | I was speaking to her when the telephone rang.
 | An pa ergo in Afrika tem poli anua.  | He had worked in Africa for many years.
 | Kron na pa veni; an pa du ki ex. 
-| When we arrived; he was leaving.footnote:[{leaving_note} {by_ms}]
+| When we arrived; he was leaving.footnote:[{when_we_arrived_note_1} {by_ms}]
 | Na pa veni; iso-kron an pa proto ki ex.
-| When we arrived; he was just going out.footnote:[{leaving_note} {by_ms}]
+| When we arrived; he was just going out.footnote:[{when_we_arrived_note_2} {by_mc}]
 | U-ci es u gina; tu pa du dic a.      | This is the lady you were talking to.
 | Mi pa du grafo; kron an pa sti kade u grafo-liqi ad epi mi grama.
 | I was writing when he spilt the ink on to my letter.
