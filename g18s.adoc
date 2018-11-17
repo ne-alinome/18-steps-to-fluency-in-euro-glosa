@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171830
+// Last modified 201811171852
 
 ////
 
@@ -18,7 +18,6 @@ XXX TODO -- Global tasks:
 - Use curved quotes.
 - Use italics.
 - Combine repeated footnotes.
-- Use `…`
 - Add the pictures.
 - Convert Marcel's bracket comments into footnotes.
 - Consult Marcel about the original cover pages
@@ -475,7 +474,7 @@ NOTE: "-co" never stands alone, but always in combinations of this kind.
 
 |===
 | es          | is, be, am, are
-| Karo ...    | Dear ...
+| Karo (…)    | Dear (…)
 | tu          | you, your
 | nima        | name
 | in          | inside, in
@@ -794,7 +793,7 @@ and to the speedy acquisition of the Euro-vocabularies.
 == Step 4
 
 |===
-| Qe?                                  | starts a question; and "whether ...".
+| Qe?                                  | starts a question; and "whether (…)".
 | Qe tu lekto u bibli?                 | Are you reading a book?
 | Ja! mi lekto u bibli.                | Yes, I'm reading a book.
 | Qe tu pa sporta tenis?               | Did you play tenis?
@@ -812,7 +811,7 @@ and to the speedy acquisition of the Euro-vocabularies.
 | Tu dice bi lingua, qe?               | You speak two languages, don't you?
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 NOTE: Animals and plants have their international biological names. The name of
 a Genus begins with a Capital. Language name = name of country + lingua; or you
@@ -861,14 +860,14 @@ ____
 | Qe tu habe un avi-do?          | Have you an aviary?
 | Qe il pa es mega soni?         | Was there a lot of noise?
 | Tu pa noku tu pedi, qe?        | You've hurt your foot, haven't you?
-| Mi eko-lo es ...               | My address is ...
+| Mi eko-lo es (…)               | My address is (…)
 |===
 
-// ... [missing: parts of the body (image)]
-// ... [missing: parts of the body (word list)]
-// ... [missing: rings and things (word list, words with -zo and -ra)]
-// ... [missing: vessels (image with -va words)]
-// ... [missing: furniture (image with -mo words)]
+// (…) [missing: parts of the body (image)]
+// (…) [missing: parts of the body (word list)]
+// (…) [missing: rings and things (word list, words with -zo and -ra)]
+// (…) [missing: vessels (image with -va words)]
+// (…) [missing: furniture (image with -mo words)]
 
 == Step 5
 
@@ -987,7 +986,7 @@ genders, or you can specify "an-Civi", "fe-Civi", "ju-fe-Civi", if you need.
 | Komo deino!                                          | How terrible!
 | Komo mira!                                           | What a surprise!
 | Bene!                                                | Well!
-| Place. Gratia de ...                                 | Please! Thank you for ...
+| Place. Gratia de (…)                                 | Please! Thank you for (…)
 | No! Ja!                                              | No! Yes!
 | Penite! pardo!                                       | Sorry! Excuse me!
 | No-gravi!                                            | It's quite alright!
@@ -1068,7 +1067,7 @@ Greko vokabulari.
 | France es u Euro-landa.               | France is a Euro-country.
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 6
 
@@ -1097,11 +1096,11 @@ Greko vokabulari.
 | An pa dice qo?                         | What did he say?
 |===
 
-// ... [missing: Place (list with -lo-words)]
-// ... [missing: Materials (list with -ma-words)]
-// ... [missing: Set, Bundle (list with -fa-words)]
-// ... [missing: Fi-Lament, Thread (list with -fi-words)]
-// ... [missing: Stone (list with -li-words)]
+// (…) [missing: Place (list with -lo-words)]
+// (…) [missing: Materials (list with -ma-words)]
+// (…) [missing: Set, Bundle (list with -fa-words)]
+// (…) [missing: Fi-Lament, Thread (list with -fi-words)]
+// (…) [missing: Stone (list with -li-words)]
 
 === A Letter
 
@@ -1128,7 +1127,7 @@ ____
 
 === Things to Eat
 
-// ... [missing: Things to Eat (picture)]
+// (…) [missing: Things to Eat (picture)]
 
 // Things to Eat - A Few Phrases
 
@@ -1185,7 +1184,7 @@ ____
 | Fe pa ki ad-in religio-do.                    | She went into the temple.
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 7
 
@@ -1206,14 +1205,14 @@ ____
 | No-klari fotografi.                      | Blurred photograph.
 |===
 
-// ... [missing: NO- forms opposites (wordlist)]
-// ... [missing: Get and got (wordlist gene, ge-)]
-// ... [missing: Clothes (wordlist ve- with pictures)]
-// ... [missing: Cloths (wordlist te- with pictures)]
+// (…) [missing: NO- forms opposites (wordlist)]
+// (…) [missing: Get and got (wordlist gene, ge-)]
+// (…) [missing: Clothes (wordlist ve- with pictures)]
+// (…) [missing: Cloths (wordlist te- with pictures)]
 
 === Travel
 
-// ... [missing: Travel - 4 pictures with words]
+// (…) [missing: Travel - 4 pictures with words]
 
 // Travel - A Few Phrases
 
@@ -1225,7 +1224,7 @@ ____
 // prima > proto
 
 |===
-| Merka u bileta a ...                   | Buy a ticket to ...
+| Merka u bileta a (…)                   | Buy a ticket to (…)
 | ab bileta                              | single ticket
 | versi bileta                           | return ticket
 | anua bileta                            | season ticket
@@ -1245,10 +1244,10 @@ ____
 | ki per fu-trena a Paris                | take the next train to Paris
 | Mi es in falsi trena.                  | I am on the wrong train.
 | Fe nece ki tako.                       | She is in a hurry.
-| Qe, u-ci trena sto a ...?              | Does this train stop at ...?
-| Mi pa lose u trena a ...               | I have missed the train for ...
+| Qe, u-ci trena sto a (…)?              | Does this train stop at (…)?
+| Mi pa lose u trena a (…)               | I have missed the train for (…)
 | Qo-lo u ge-lose ra ofici, place?       | Where is the lost property office, please?
-| Qe, tu pote dic a mi u via a ...?      | Can you tell me the way to ...?
+| Qe, tu pote dic a mi u via a (…)?      | Can you tell me the way to (…)?
 | tropi a dextro                         | turn right
 | tropi a laevo                          | turn left
 | ki rekti                               | go straight ahead
@@ -1301,7 +1300,7 @@ ____
 | Qe tu ski u boni fago-do proxi ci?| Do you know a good restaurant around here?
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 8
 
@@ -1332,7 +1331,7 @@ ____
 
 === The House
 
-// ... [missing: The House - picture with words]
+// (…) [missing: The House - picture with words]
 
 // The House - A Few Phases
 
@@ -1473,7 +1472,7 @@ u laevo pedi-via(3).
 
 A gono(4)es u posta-teka(5). U-ci hab u stoma(6)ad-in qi pe bali plu grama.
 Infra stoma es un horo-tabula(6a); qi indika plu kolekti-horo. Poste posta-teka
-es u pani-bo(7); e supra u-ci u strata-nima ... Ponti via.
+es u pani-bo(7); e supra u-ci u strata-nima (…) Ponti via.
 
 Il es bi pla postefootnote:[Original says "intra" {by_ms}] fenestra(10). Epi supra pla es plu pani
 (11); e epi infra-pla es plu plaka(12). Ante boteka u gina(13)gresi longi pedi-
@@ -1580,7 +1579,7 @@ e poste panto-ci es plu tele-buna(47).
 // XXX TODO -- What was wrong with the original?:
 // Per Glosa 1000 pe pote grafo alo dice de ali tema.
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 10
 
@@ -1604,8 +1603,8 @@ e poste panto-ci es plu tele-buna(47).
 
 === Hospital
 
-// ... [missing: picture with a hospital scene]
-// ... [missing: word list to the hospital scene picture]
+// (…) [missing: picture with a hospital scene]
+// (…) [missing: word list to the hospital scene picture]
 
 // Hospital - A Few Phrases
 
@@ -1689,7 +1688,7 @@ ____
 | Mi visita an singu tri di.              | I visit him every three days.
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 11
 
@@ -1725,8 +1724,8 @@ ____
 
 === Communications
 
-// ... [missing: picture with things about communication]
-// ... [missing: word list to the picture]
+// (…) [missing: picture with things about communication]
+// (…) [missing: word list to the picture]
 
 // Communications - A Few Phrases
 
@@ -1760,7 +1759,7 @@ ____
 | uti u programa                        | run a program
 | salva info                            | save information
 | apri u dosie                          | open up a file
-| bali fax a ...                        | send a fax to ...
+| bali fax a (…)                        | send a fax to (…)
 | sekuri kopi                           | make a back-up copy
 | ma-dinami                             | upgrade the system
 | tele-konference                       | take part in a tele-conference
@@ -1774,8 +1773,8 @@ ____
 == Step 12
 
 |===
-| ma ... de   | more ... than
-| mei ... de  | less ... than
+| ma (…) de   | more (…) than
+| mei (…) de  | less (…) than
 |===
 
 |===
@@ -1801,7 +1800,7 @@ ____
 | Penite, mi habe zero.                        | Sorry, I have none.
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 12
 
@@ -1824,8 +1823,8 @@ ____
 
 === Tools
 
-// ... [missing: picture with tools]
-// ... [missing: word list to the picture]
+// (…) [missing: picture with tools]
+// (…) [missing: word list to the picture]
 
 // Tools - A Few Phrases
 
@@ -1920,7 +1919,7 @@ ____
 | He usually goes to town by train, but today he will drive.
 | Qe mi lice auxi tu?                   | May I help you?
 | Lase mi auxi tu.                      | Let me help you.
-| Qe tu pote dic a mi u via a ... ?     | Can you tell me the way to ... ?
+| Qe tu pote dic a mi u via a (…) ?     | Can you tell me the way to (…) ?
 |===
 
 === Vocabulary
@@ -1945,18 +1944,18 @@ ____
 === Exercise 13
 
 :accustomed_note: This is an \
-advice for a Glosa student: "You should (ought to) quickly get ..." . \
+advice for a Glosa student: "You should (ought to) quickly get (…)" . \
 As an expectation of likely outcome \
 the sentence would be: "More pe gene tako more Glosa kogita". \
 
 |===
 | Plu ju-an pa lava se.                         | The boys washed themselves.
 | An auto pa akti id.                           | He himself did it.
-| Qe tu tende vagona a ... ?                    | Do you intend to drive to ... ?
+| Qe tu tende vagona a (…) ?                    | Do you intend to drive to (…) ?
 | Fe ne pote dromo iso tako de mi.              | She cannot run as fast as I.
 | auto-ergo-pe                                  | self-employed person
 | Qe tu memo u-la gluko vespera?                | Do you remember that nice evening?
-| Qo preci u grama a ... ?                      | How much does a letter cost to ... ?
+| Qo preci u grama a (…) ?                      | How much does a letter cost to (…) ?
 | Tu debi gene tako more Glosa kogita.          | You should quickly get accustomed thinking in Glosa.footnote:[{accustomed_note} {by_ms}]
 | Mi qestio se; qe an fu veni.                  | I wonder whether he will come.
 | U-ci vagona kine fo tako.                     | This car goes very fast.
@@ -2106,7 +2105,7 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 | leuko-rubi                           | light red
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 === Exercise 14
 
@@ -2134,8 +2133,8 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 
 === Camping
 
-// ... [missing: picture with camping]
-// ... [missing: word list to the picture]
+// (…) [missing: picture with camping]
+// (…) [missing: word list to the picture]
 
 // Camping - A Few Phrases
 
@@ -2220,7 +2219,7 @@ ____
 | Tu lekto qo speci bibli?               | What kinds of books do you read?
 |===
 
-// ... [missing: Vocabulary]
+// (…) [missing: Vocabulary]
 
 // XXX TODO -- Credit the author of the note.
 
@@ -2231,12 +2230,12 @@ saw yesterday".footnote:[This is a bad rule for an International
 Auxiliary Language. The relative pronoun, "qi", should be permitted, in
 speech and in writing, even when its function in the sentence does not
 allow it a position at the beginning of the relative clause: "Un
-andro; mi pa vide (qi); akti ..." {by_ms}]
+andro; mi pa vide (qi); akti (…)" {by_ms}]
 
 === Apiculture
 
-// ... [missing: picture about apiculture ]
-// ... [missing: word list to the picture]
+// (…) [missing: picture about apiculture ]
+// (…) [missing: word list to the picture]
 
 // Apiculture - A Few Phrases
 
@@ -2285,7 +2284,7 @@ andro; mi pa vide (qi); akti ..." {by_ms}]
 | U tetrapoda es u bio-ra; qi habe tetra poda.   | A tetrapod is a creature; which has four legs.
 | U-ci es u gina; qi eko u-la mega domi proxi religio-do. 
 | This is the lady; who lives in that big house near the church.
-| Bibe u-ci medika-ma tri kron singu di.footnote:[Original says "(...) tri kron u di". {by_ms}]
+| Bibe u-ci medika-ma tri kron singu di.footnote:[Original says "(…) tri kron u di". {by_ms}]
 | Take this medicine three times a day.
 | No! mi ne amo u-ci speci medika-ma.            | No! I don't like this kind of medicine.
 | Tu feno subo leuko.                            | You look rather pale.
@@ -2382,7 +2381,7 @@ Minus sinapi, panto-na in navi pa este melankolifootnote:[Original
 says "Na pa no-memo de pak u sinapi; qi sti melankoli panto-na". {by_ms}] Na
 pa vora u bovi in silenti. U vita nu pa feno vaku e no-stimula. Na pa
 memo plu hedo di de infanti-tem; e ko tristi-senti spira exfootnote:[Original
-says "...; e senti tristi". {by_ms}]. Anti-co, na gene ma hedo ko pomi pastata;
+says "(…) ; e senti tristi". {by_ms}]. Anti-co, na gene ma hedo ko pomi pastata;
 e, kron George pa trakto u stani-va de Ananas ex funda de sito-va; e
 pa volve id a meso-navi; na pa senti, anti-co, vita es ne mali.
 Panto-na amo Ananas. Na pa examina u pikto epi stani-va; na pa pensi
@@ -2403,12 +2402,12 @@ ne-ge-vulnefootnote:[Original says "no-ge-vulne". {by_ms}], e frakti u tea- tasa
 Panto-na pa gene rabi. Na pa leva u-la vasa; e fero id ex ad-epi ripa; e Harris
 ki ana ad-in agri; e detekti u mega akuto lito; e mi ki versi ad-in navi; e
 fero u pali. George pa tena u vasa; e Harris pa tena un akuto akro de lito epi
-supra;footnote:[Original says "... tena un aku fini de lito epi supra;". {by_ms}]e mi pa prende u
+supra;footnote:[Original says "(…) tena un aku fini de lito epi supra;". {by_ms}]e mi pa prende u
 pali; leva id alti in aero; e kon holo dina mi trakto id kata.
-Id pa es George stra kefa-ve; qi salva an vita u-la di. [...] Harris veni ex ko
+Id pa es George stra kefa-ve; qi salva an vita u-la di. (…) Harris veni ex ko
 solo u karni vulne.
 
-Po-co, mi auto pa levafootnote:[Original says "fero ... a dista topo", but in the English
+Po-co, mi auto pa levafootnote:[Original says "fero (…) a dista topo", but in the English
 original they seem to stay in the same place. {by_ms}] u stani-vafootnote:[Original says only
 "stani". {by_ms}]; e pa bate id ko pali; a-kron mi pa lose mi dina; e pa lose panto spe; e
 Harris pa prende id e dura bate id.
@@ -2455,7 +2454,7 @@ mast, and George held the tin and Harris held the sharp end of his stone
 against the top of it, and I took the mast and poised it high up in the air,
 and gathered all my strength and brought it down.
 
-It was George's straw hat that saved his life that day. [...] Harris got off
+It was George's straw hat that saved his life that day. (…) Harris got off
 with merely a flesh wound.
 
 After that I took the tin off myself, and hammered at it with the mast till I
@@ -2543,7 +2542,7 @@ English original):
 
 [verse]
 ____
-... de konfort, ze-pe dic:
+(…) de konfort, ze-pe dic:
 Las na dic de tumb, de verm, e epitaf;
 Fac pulve na papir; ko pluvi ok
 Graf tristi epi facia de u ge.
@@ -2569,7 +2568,7 @@ Infusi an ko vani vanita
 Kom si u sark, qi cirku mur na vit
 Es fo-resista ma; e ridi so,
 Veni a fin, e per u mikro spin
-For dia an kastel mur, ... e vale, reg!
+For dia an kastel mur, (…) e vale, reg!
 Tegu tu kef; ne ridi anti mi
 Ko solem revere; bali respekt,
 Traditi, form, e ceremoni deb;
@@ -2592,7 +2591,7 @@ Some eti-notes; literal translation of some L & G roots:
 
 [verse]
 ____
-... of comfort, no man speak.
+(…) of comfort, no man speak.
 Let's talk of graves, of worms, and epitaphs;
 Make dust our paper, and with rainy eyes
 Write sorrow on the bosom of the earth.
@@ -2651,7 +2650,7 @@ ____
 
 === Exercise 18
 
-// XXX FIXME -- Asciidoctor does not render curve quotes ("`...`") in
+// XXX FIXME -- Asciidoctor does not render curve quotes ("`…`") in
 // notes?
 
 :leaving_note: Original says "When we arrived; he was \
@@ -2760,7 +2759,7 @@ Tense, Passive, Questions, Comparison, Relative Pronoun.
 | u(n)           | a, the, any     |  u bibli, un avi      | a book, a bird
 | plu            | more than one   |  plu avi              | the birds
 | nu             | now             |  Fe vora.             | She is eating.
-| pa             | did             |  Fe pa dice ...       | She said ...
+| pa             | did             |  Fe pa dice (…)       | She said (…)
 | fu             | shall           |  Fe fu dice.          | She will speak.
 | du             | du-ration       |  Fe pa du dice        | She was talking.
 | nu pa          | have just       |  Mi nu pa vide fe.    | I've just seen her.
@@ -2770,17 +2769,17 @@ Tense, Passive, Questions, Comparison, Relative Pronoun.
 | si             | if              |  si fe vide an        | if she sees him
 | sio            | would (if)      |  Mi ne sio ki         | I wouldn't go.
 | ne             | not             |  Fe ne pote vide id.  | She cannot see it.
-| qe ... ?       | question starts |  Qe, tu pa vide id?   | Did you see it?
-| qo-ka ... ?    | why (CAuse)     |  Qo-ka tu ... ?       | What made you ...
-| qo-te ... ?    | why (inTEntion) |  Qo-te tu ki?         | Why go? (aim)
-| qe?            | ... doesn't it? |  Termo qe?            | Hot isn't it?
+| qe (…) ?       | question starts |  Qe, tu pa vide id?   | Did you see it?
+| qo-ka (…) ?    | why (CAuse)     |  Qo-ka tu (…) ?       | What made you (…)
+| qo-te (…) ?    | why (inTEntion) |  Qo-te tu ki?         | Why go? (aim)
+| qe?            | (…) doesn't it? |  Termo qe?            | Hot isn't it?
 | gene           | get (passively) |  pa gene u grama      | got a letter
 | pa gene        | got             |  pa gene frigo        | got cold
 | ge-            | got-            |  ge-frakti            | broken
 | se             | self            |  lava se              | wash oneself
-| mi auto        | I myself ...    |  Mi auto pa vide id.  | I myself saw it.
-| iso ... de     | as ... as       |  iso mega de ...      | as big as
-| ma ... de      | more ... than   |  ma termo de          | warmer than
+| mi auto        | I myself (…)    |  Mi auto pa vide id.  | I myself saw it.
+| iso (…) de     | as (…) as       |  iso mega de (…)      | as big as
+| ma (…) de      | more (…) than   |  ma termo de          | warmer than
 | maxi           | most, -est      |  maxi termo           | hottest
 | mei de         | less than       |  mei termo de         | less warm than
 | mini           | least           |  mini rubi            | least red
@@ -2792,7 +2791,7 @@ Tense, Passive, Questions, Comparison, Relative Pronoun.
 
 This Dictionary lists 2000 useful English words into Glosa 1000.
 
-// ... [missing: Abbreviations to the vocabulary list]
+// (…) [missing: Abbreviations to the vocabulary list]
 
 This English - Glosa 1000 Dictionary is the Central most important of all Glosa
 dictionaries. It is the Heart of Glosa. These 1000 Glosa words cope easily with
@@ -2802,10 +2801,10 @@ perhaps because a longer or more exotic word under special circumstances is
 preferable.
 
 // XXX TODO -- Add `note:` and link
-// ... [missing: vocabulary list English - Glosa 1000. Please refer to the Glosa
+// (…) [missing: vocabulary list English - Glosa 1000. Please refer to the Glosa
 // Internet Dictionary for the words.]
 
-// ... [missing: Glosa publications]
+// (…) [missing: Glosa publications]
 
 // XXX OLD -- Removed, because it's already on the cover.
 // "The world-wide vocabulary of Science is the nearest thing to the lexicon of a
@@ -2817,7 +2816,7 @@ preferable.
 == Glosa 1000 - English
 
 // XXX TODO -- Add `note:` and link
-// ... [missing: vocabulary list Glosa 1000 - English. Please refer to the Glosa
+// (…) [missing: vocabulary list Glosa 1000 - English. Please refer to the Glosa
 // Internet Dictionary for the words.]
 
 ////
@@ -2851,10 +2850,10 @@ Kruci-Verba, Step 13:
   E   I   D   E   N
   O D O R I   O V A
 
-// ... [missing: Key to exercises. ... The other solutions are already given with
+// (…) [missing: Key to exercises. (…) The other solutions are already given with
 // the exercises's texts.]
 
-// ... [missing: Glosa publications]
+// (…) [missing: Glosa publications]
 
 ////
 
