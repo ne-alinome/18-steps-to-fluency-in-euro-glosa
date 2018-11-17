@@ -6,20 +6,22 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171608
+// Last modified 201811171649
 
 ////
 
 XXX TODO -- Global tasks:
 
 - Consult the Marcel about the note of "stilo".
+- Ask Marcel if second option in "Qe Glosa es tu lingua bi? / Qe Glosa
+  es u lingua bi de tu?" was added by him.
 - Credit the author of the footnotes.
 - Use curved quotes.
 - Use italics.
 - Combine repeated footnotes.
 - Use `…`
 - Add the pictures.
-- Convert Marces's brakect comments into footnotes.
+- Convert Marcel's bracket comments into footnotes.
 
 ////
 
@@ -344,14 +346,14 @@ There are plenty of examples in the book.
 | 1                      | mo
 | 2                      | bi
 | 3                      | tri
-| 4                      | tet or tetra
-| 5                      | pen or penta
-| 6                      | six (or sixa)
-| 7                      | seti or septi
-| 8                      | ok or okto
+| 4                      | tet / tetra
+| 5                      | pen / penta
+| 6                      | six / sixa
+| 7                      | seti / septi
+| 8                      | ok / okto
 | 9                      | nona
 | 10                     | deka
-| 0                      | ze or zero
+| 0                      | ze / zero
 | 11                     | mo mo
 | 12                     | mo bi
 | 20                     | bi ze
@@ -372,7 +374,7 @@ There are plenty of examples in the book.
 | the 5th book           | u bibli penta
 | 3 times                | tri kron
 | they have 2 each       | singu pe habe bi ra
-| How many?              | Qo numera? orQanto?
+| How many?              | Qo numera? / Qanto?
 | Count them!            | Numera mu!
 | June 8                 | di ok, meno six
 | Monday                 | di bi
@@ -797,7 +799,7 @@ and to the speedy acquisition of the Euro-vocabularies.
 | Mi dice tri lingua; France-lingua, suomi-lingua e Glosa.
 | I speak 3 languages, French, Finish and Glosa.
 | Qe tu es Suomi-pe?                   | Are you Finnish?
-| Qe Glosa es tu lingua bi? (or Qe Glosa es u lingua bi de tu?)
+| Qe Glosa es tu lingua bi? / Qe Glosa es u lingua bi de tu?
 | Is Glosa your second language?
 | Tu dice bi lingua, qe?               | You speak two languages, don't you?
 |===
@@ -2211,7 +2213,7 @@ ____
 
 // XXX TODO -- Credit the author of the note.
 
-NOTE: When 'who' or 'which' are the object of a clause they are
+NOTE: When "who" or "which" are the object of a clause they are
 usually left out in English. In Glosa we always leave them out.
 Instead of saying; "The man WHOM I saw yesterday" we say "The man I
 saw yesterday".footnote:[Note: This is a bad rule for an International
