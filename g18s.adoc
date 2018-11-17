@@ -6,21 +6,20 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811171440
+// Last modified 201811171608
 
 ////
 
 XXX TODO -- Global tasks:
 
-- "stilo" is right, it was changed back: "48 tinta-grafo-ru pen"
-  (original says stilo, but this would be also "style".)`. Consult the
-  Marcel.
+- Consult the Marcel about the note of "stilo".
 - Credit the author of the footnotes.
 - Use curved quotes.
 - Use italics.
 - Combine repeated footnotes.
 - Use `…`
 - Add the pictures.
+- Convert Marces's brakect comments into footnotes.
 
 ////
 
@@ -2018,7 +2017,13 @@ the sentence would be: "More pe gene tako more Glosa kogita". \
 | 45 | tele grama          | telegram
 | 46 | ju-an               | boy
 | 47 | liko un ateli       | licking a stamp
-| 48 | stilo               | pen
+| 48 | stilofootnote:[The HTML version replaced "stilo" with
+"tinta-grafo-ru", but the original "stilo" is right: In Glosa "stilo"
+means "pen", "ball-point pen" and "style" (from Latin "stilus", i.e.
+the instrument used by the ancients in writing on tablets covered with
+wax). Other meanings of the English word "style" are expressed in Glosa by "mode".
+XXX TODO -- Note by Marcos.]
+| pen
 | 49 | ge-lento pe         | disabled person
 | 50 | rota-side           | wheel chair
 |===
