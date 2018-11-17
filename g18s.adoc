@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172105]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172120]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -11,6 +11,7 @@ e-book version by Marcos Cruz (2018)
 
 ////
 
+- Link steps mentioned in the Foreword.
 - XXX FIXME -- `{nbsp}` is not rendered into DocBook. Therefore it
   passes as is into EPUB.
 - Move the descriptions of the original table of contents to the
@@ -111,8 +112,8 @@ Miller (jusli[a dot here]miller[the at sign]juno[another dot]com) for
 5{nbsp}USD plus shipping.
 
 This file does not contain the whole book, and does not aim to. Though all the
-sample sentences and rules have been included, only Steps 1-3, 5, 9, 13 and 16-
-18 are really complete. The Glosa{nbsp}1000 vocabulary list is missing, please refer
+sample sentences and rules have been included, only Steps 1-3, 5, 9, 13 and
+16-18 are really complete. The Glosa 1000 vocabulary list is missing, please refer
 to the Glosa Internet Dictionary. This version is meant only as a supplement to
 Glosa's presentation on the Internet. There is also a German and an unfinished
 Russian version available.
@@ -2608,11 +2609,11 @@ ____
 Some eti-notes; literal translation of some L & G roots:
 
 - line 2 EPI-TAPH G. on-tomb.
-- 10 G. steiro, barren better? but sika, dry is in Glosa 1000.
-- 17 G. koelo, hollow. The G. is cog with the E.
-- 24 G. sarko, flesh. sarcastic, flesh-tearing. Sarcophagus flesh eating.
-- L is carni- as in carni-vorous.
-- 26 L. spina, thorn, pin.
+- 10 G. _steiro_, barren better? but _sika_, dry is in Glosa 1000.
+- 17 G. _koelo_, hollow. The G. is cog with the E.
+- 24 G. _sarko_, flesh. sarcastic, flesh-tearing. Sarcophagus flesh
+  eating.  L is _carni_ as in carni-vorous.
+- 26 L. _spina_, thorn, pin.
 
 ==== English Original
 
