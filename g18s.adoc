@@ -6,7 +6,7 @@ Asciidoctor version by Marcos Cruz (programandala.net) (2018)
 :toc:
 :toc-levels: 3
 
-// Last modified 201811152321
+// Last modified 201811171440
 
 ////
 
@@ -1141,7 +1141,6 @@ ____
 | kribri u farina               | sieve the flour
 |===
 
-
 == Step 7
 
 |===
@@ -1227,9 +1226,9 @@ ____
 | Pro qo tem u-ci bilet habe valu?       | For how long is this ticket valid?
 | Tu trena ki ab plata tri a 14:00 horo. | Your train departs from platform 3 at 14:00 hrs.
 | Qo-lo na nece kambio?                  | Where do we have to change?
-| prima klasifootnote:[Original says "sekunda klasi".]
-| first class
-| klasi bi                               | second class
+| prima klasi                            | first class
+| klasi bifootnote:[Original says "sekunda klasi".]
+| second class
 | tako, lento                            | fast, slow
 | prima trena de di, ultima trena de di  | early train, late train
 | ki per fu-trena a Paris                | take the next train to Paris
@@ -1265,7 +1264,6 @@ ____
 | Mi habe zero de deklara.               | I have nothing to declare.
 | viagia-insura                          | travel insurance
 |===
-
 
 == Step 8
 
@@ -2356,10 +2354,6 @@ supplemented and not in the original. XXX TODO -- NOTE by Marcos]
 | An pa gresi ab domi.                   | He walked away from the house.
 |===
 
-// Tu ne lice casa plu zoa.               You must not chase the animals.
-// Tu ne nece casa plu zoa                You don't need to chase the animals
-
-
 === Tri Andro in Navi
 
 From "Three Men in a Boat" by Jerome K. Jerome. English version after Glosa
@@ -2844,7 +2838,6 @@ Kruci-Verba, Step 13:
 ////
 
 == Cover page
-
 
 GLOSA +
 FOR WORLD COMMUNICATION, EDUCATION +
