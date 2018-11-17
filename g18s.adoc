@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172045]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811172054]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -22,7 +22,6 @@ e-book version by Marcos Cruz (2018)
   Use italics instead?
 - Combine repeated footnotes.
 - Add the pictures.
-- Convert Marcel's bracket comments into footnotes.
 - Consult Marcel about the original cover pages
 - "(=" --> "(" and "/" ?
 - Fix the e-mails.
@@ -229,14 +228,14 @@ conversation accurately and euphoniously.
 The Mechanics of Glosa neatly summarized on one page shows how 20 little words
 of the 1000 deal easily with Tense, Comparison, Number etc.
 There are 18 lessons, each one with exercises for translation from English into
-Glosa, and vice versa [In this file, the exercises and translations have been
-brought together as parallel columns.]. Each lesson contains parallel English
+Glosa, and vice versafootnote:[In this file, the exercises and translations have been
+brought together as parallel columns. {by_ms}]. Each lesson contains parallel English
 and Glosa sentences. Simple informal letters are provided in alternate lessons,
 and useful phrases.
 
-Many informative illustrations [A lot of them not in this file].
+Many informative illustrationsfootnote:[A lot of them not in this file. {by_ms}].
 The vocabularies at the back list Glosa 1000 into English and a 2000 word
-English vocabulary into Glosa 1000 [Not in this file.].
+English vocabulary into Glosa 1000footnote:[Not in this file. {by_ms}].
 Each Glosa word stands for a Concept, rather like the head word in Roget's
 Thesaurus.
 
