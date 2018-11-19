@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811191437
+# Last modified 201811191457
 # See change log at the end of the file
 
 # ==============================================================
@@ -18,7 +18,7 @@
 
 target=target
 
-VPATH=./$(target)
+VPATH=./src:./$(target)
 
 # ==============================================================
 # Book shortcuts
@@ -135,5 +135,6 @@ $(target)/$(_18s).adoc.xml.pandoc.rtf: $(target)/$(_18s).adoc.xml
 # 2018-11-17: Create also EPUB, ODT, RTF (with problems) and PDF. Also create
 # an additional HTML by Pandoc.
 #
-# 2018-11-19: Adapt to long file names specified by variables, in order to add
-# more documents to the project.
+# 2018-11-19: Adapt to long file names specified by variables and the new
+# directory used for the Asciidoctor sources. These changes are needed in order
+# to add more documents to the project.
