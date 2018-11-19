@@ -1,10 +1,11 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811190104]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811191824]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
 :revadate: 2018-11-19
 :toc:
 :toc-levels: 3
+:imagesdir: pic
 
 // =============================================================
 // XXX TODO
@@ -17,10 +18,12 @@ e-book version by Marcos Cruz (2018)
 - Use curved quotes (but somehow they are not rendered in footnotes).
   Use italics instead?
 - Combine repeated footnotes.
-- Add the pictures.
 - "(=" --> "(" and "/" ?
 - Add the "Pikto-Verba" and other exercises.
 - Review usage of full stops in quotes in English.
+- Fix format of "Sverige", etc. Search the original HTML version for
+  bold and italic.
+- Add address to postcard and fix its layout.
 
 Consult Marcel:
 
@@ -30,6 +33,8 @@ Consult Marcel:
 - Gary Miller's e-mail and printing service.
 - Is the second option in "Qe Glosa es tu lingua bi? / Qe Glosa es u
   lingua bi de tu?" his?
+- Is this note about the post office his?
+- Is this note about "u(n)" after place words his?
 
 Errors in the HTML version:
 
@@ -621,12 +626,15 @@ Deutschland, Rome Roma.
 
 === Place-Words
 
-// [[diagram about the prepositions epi, intra, dia and peri]]
-// [[diagram about the prepositions ana and kata]]
-// [[diagram about the prepositions]]
+// XXX FIXME -- The commas corrupt the image caption in EPUB. A hyphen
+// is used instead.
+
+image::g18s021.gif[Diagram about the prepositions "epi" - "intra" - "dia" - "peri"]
+image::g18s022.gif[Diagram about the prepositions "ana" - "kata"]
+image::g18s023.gif[Diagram about the prepositions]
 
 NOTE: Since a place word is usually followed by a noun, there is no
-need for it to be followed by u(n), the article.
+need for it to be followed by "u(n)", the article.
 
 |===
 | U verba-bibli es epi tabla.                     | The dictionary is on the table.
@@ -728,15 +736,13 @@ time, eg.
 | viagia-bo                                           | travel agent
 |===
 
-// === Living Things
+=== Living Things
 
-// XXX TODO --
-
-// [[horse, donkey, pig, lion]] [[cow, ape, dog, cat]] [[mouse, frog, hedgehog,
-//                                   squirrel,
-//                   hen, duck]] [[bee, snake, kangaroo, sheep,
-//                 butterfly, fish]] [[bird, spider, flower, worm,
-//                                   mushroom]]
+image::g18s024.gif[horse, donkey, pig, lion,align="center"]
+image::g18s025.gif[cow, ape, dog, cat,align="center"]
+image::g18s026.gif[mouse, frog, hedgehog, squirrel, hen, duck,align="center"]
+image::g18s027.gif[bee, snake, kangaroo, sheep, butterfly, fish,align="center"] 
+image::g18s028.gif[bird, spider, flower, worm, mushroom,align="center"]
 
 === Exercise 3
 
@@ -766,7 +772,23 @@ time, eg.
 
 === Buildings
 
+// ifeval::["{backend}" == "html5"]
+
+// XXX REMARK -- This looks fine in the HTML is created by
+// Asciidoctor, and its original stilysheet or compatible is used: The
+// text and the inline image are moved to the right as a block.
+
+[.right]
+--
+domi image:g18s029.gif[house]
+--
+
+// endif::[]
+
 |===
+// ifeval::["{backend}" != "html5"]
+// | domi         | house
+// endif::[]
 | apis-do      | bee-hive
 | bibli-do     | library
 | bovi-do      | cattle shed
@@ -1492,8 +1514,7 @@ ____
 
 === A Street Scene
 
-// XXX TODO --
-// [[a street]]
+image::g18s032.gif[A street,align="center"]
 
 U-ci es u strata-vista. U longi rekti rota via(1)e bi pedi-via(2). Prima, skop
 u laevo pedi-via(3).
@@ -2019,10 +2040,10 @@ e habe sati bibe-hidro.
 
 === Post Office
 
-// XXX TODO --
-// [[in post office]]
-// (Note: on the sign KLUDE would be better than KLAUSTRO, or even better NE-
-// FUNKTIO. And FUNKTIO is perhaps better than APRI.)
+image::g18s033.gif[Post office,align="center"]
+
+NOTE: on the sign "KLUDE" would be better than "KLAUSTRO", or even
+better "NE- FUNKTIO". And "FUNKTIO" is perhaps better than "APRI".
 
 |===
 |  1 | libra               | scales
@@ -2109,8 +2130,9 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 | grama ge-lose in posta                     | letter lost in the post
 |===
 
-// Kruci-Verba
-//                              [[crossword puzzle]]
+=== Kruci-Verba
+
+image::g18s034.gif[Crossword puzzle,align="center"]
 
 // KATA: 1 Domi zoa.    2 No-foto tem.    3 Libe-tem aktivi.    4 Pre; non-avanti.
 //    5 Pusi urba.    9 Bibe-ma.    11 Ma de mono.    12 Oligo Glosa-pe komunika
@@ -2275,11 +2297,9 @@ ____
 
 // (…) [missing: Vocabulary]
 
-// XXX TODO -- Credit the author of the note.
-
 NOTE: When "who" or "which" are the object of a clause they are
 usually left out in English. In Glosa we always leave them out.
-Instead of saying; "The man WHOM I saw yesterday" we say "The man I
+Instead of saying; "The man *whom* I saw yesterday" we say "The man I
 saw yesterday".footnote:[This is a bad rule for an International
 Auxiliary Language. The relative pronoun, "qi", should be permitted, in
 speech and in writing, even when its function in the sentence does not
@@ -2552,6 +2572,15 @@ of 400,000 words, about 100,000 come from Latin or Greek, i. e. 1 out of every
 === A Postcard
 
 ____
+
+ifeval::["{backend}" == "html5"]
+
+// XXX REMARK -- Add the stamp only when HTML5 is created directly by
+// Asciidoctor.
+
+image::g18s040.gif[Indian stamp,float="right"]
+
+endif::[]
 
 Na pa veni a Bombai pre tetra di. Klima es fo fo termo! Hotel es
 boni; fago-ma habe u fo boni gusta.
@@ -2922,6 +2951,8 @@ THIRD-WORLD, CONSERVATION
 
 // XXX REMARK -- This quote is not verbatim the copy in section _The
 // Global Language for the Global Village_.
+
+image::g18s035.gif[Diagram with Glosa-logo,align="center"]
 
 [quote, Prof. Hogben, Vocabulary of Science]
 ____

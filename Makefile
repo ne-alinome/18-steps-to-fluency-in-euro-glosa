@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811191457
+# Last modified 201811191818
 # See change log at the end of the file
 
 # ==============================================================
@@ -24,6 +24,12 @@ VPATH=./src:./$(target)
 # Book shortcuts
 
 _18s=18_steps_to_fluency_in_euro-glosa
+dgv=de_glosa_verba
+gbr=glosa_basic_reference
+glm=glosalist_messages_1997-2003
+
+# Current book:
+book=$(_18s)
 
 # ==============================================================
 # Interface
@@ -32,31 +38,41 @@ _18s=18_steps_to_fluency_in_euro-glosa
 all: epub html odt pdf
 
 .PHONY: docbook
-docbook: $(target)/$(_18s).adoc.xml
+docbook: $(target)/$(book).adoc.xml
 
 .PHONY: epub
-epub: $(target)/$(_18s).adoc.xml.pandoc.epub
+epub: $(target)/$(book).adoc.xml.pandoc.epub
+
+.PHONY: picdir
+picdir:
+	ln --force --symbolic --target-directory=$(target) ../src/pic
 
 .PHONY: html
-html: $(target)/$(_18s).adoc.html $(target)/$(_18s).adoc.plain.html $(target)/$(_18s).adoc.xml.pandoc.html
+html: picdir $(target)/$(book).adoc.html $(target)/$(book).adoc.plain.html $(target)/$(book).adoc.xml.pandoc.html
 
 .PHONY: odt
-odt: $(target)/$(_18s).adoc.xml.pandoc.odt
+odt: $(target)/$(book).adoc.xml.pandoc.odt
 
 .PHONY: pdf
-pdf: $(target)/$(_18s).adoc.pdf
+pdf: $(target)/$(book).adoc.pdf
 
 .PHONY: rtf
-rtf: $(target)/$(_18s).adoc.xml.pandoc.rtf
+rtf: $(target)/$(book).adoc.xml.pandoc.rtf
 
 .PHONY: clean
 clean:
-	rm -f $(target)/*
+	rm -f \
+		$(target)/*.epub \
+		$(target)/*.html \
+		$(target)/*.odt \
+		$(target)/*.pdf \
+		$(target)/*.rtf \
+		$(target)/*.xml
 
 # ==============================================================
 # Convert to DocBook
 
-$(target)/$(_18s).adoc.xml: $(_18s).adoc
+$(target)/$(book).adoc.xml: $(book).adoc
 	asciidoctor --backend=docbook5 --out-file=$@ $<
 
 # ==============================================================
@@ -69,7 +85,7 @@ $(target)/$(_18s).adoc.xml: $(_18s).adoc
 # /usr/share/pandoc-1.9.4.2/templates/epub-page.html
 # /usr/share/pandoc-1.9.4.2/templates/epub-titlepage.html
 
-$(target)/$(_18s).adoc.xml.pandoc.epub: $(target)/$(_18s).adoc.xml
+$(target)/$(book).adoc.xml.pandoc.epub: $(target)/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=epub \
@@ -79,17 +95,17 @@ $(target)/$(_18s).adoc.xml.pandoc.epub: $(target)/$(_18s).adoc.xml
 # ==============================================================
 # Convert to HTML
 
-$(target)/$(_18s).adoc.plain.html: $(_18s).adoc
+$(target)/$(book).adoc.plain.html: $(book).adoc
 	adoc \
 		--attribute="stylesheet=none" \
 		--quiet \
 		--out-file=$@ \
 		$<
 
-$(target)/$(_18s).adoc.html: $(_18s).adoc
+$(target)/$(book).adoc.html: $(book).adoc
 	adoc --out-file=$@ $<
 
-$(target)/$(_18s).adoc.xml.pandoc.html: $(target)/$(_18s).adoc.xml
+$(target)/$(book).adoc.xml.pandoc.html: $(target)/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=html \
@@ -99,7 +115,7 @@ $(target)/$(_18s).adoc.xml.pandoc.html: $(target)/$(_18s).adoc.xml
 # ==============================================================
 # Convert to ODT
 
-$(target)/$(_18s).adoc.xml.pandoc.odt: $(target)/$(_18s).adoc.xml
+$(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
 	pandoc \
 		+RTS -K15000000 -RTS \
 		--from=docbook \
@@ -110,7 +126,7 @@ $(target)/$(_18s).adoc.xml.pandoc.odt: $(target)/$(_18s).adoc.xml
 # ==============================================================
 # Convert to PDF
 
-$(target)/$(_18s).adoc.pdf: $(_18s).adoc
+$(target)/$(book).adoc.pdf: $(book).adoc
 	asciidoctor-pdf --out-file=$@ $<
 
 # ==============================================================
@@ -120,7 +136,7 @@ $(target)/$(_18s).adoc.pdf: $(_18s).adoc
 # properly. The RTF marks are exposed. It seems they don't recognize the format
 # and take it as a plain file.
 
-$(target)/$(_18s).adoc.xml.pandoc.rtf: $(target)/$(_18s).adoc.xml
+$(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=rtf \
@@ -136,5 +152,6 @@ $(target)/$(_18s).adoc.xml.pandoc.rtf: $(target)/$(_18s).adoc.xml
 # an additional HTML by Pandoc.
 #
 # 2018-11-19: Adapt to long file names specified by variables and the new
-# directory used for the Asciidoctor sources. These changes are needed in order
-# to add more documents to the project.
+# directory used for the Asciidoctor sources. Make the book name configurable.
+# These changes are needed in order to add more documents to the project. Also,
+# adapt in order to include images in the documents.
