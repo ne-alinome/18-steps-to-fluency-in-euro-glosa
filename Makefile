@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811171936
+# Last modified 201811191437
 # See change log at the end of the file
 
 # ==============================================================
@@ -14,40 +14,49 @@
 # - pandoc
 
 # ==============================================================
+# Config
 
 target=target
 
 VPATH=./$(target)
 
+# ==============================================================
+# Book shortcuts
+
+_18s=18_steps_to_fluency_in_euro-glosa
+
+# ==============================================================
+# Interface
+
 .PHONY: all
 all: epub html odt pdf
 
-.PHONEY: clean
-clean:
-	rm -f $(target)/
-
 .PHONY: docbook
-docbook: $(target)/g18s.adoc.xml
+docbook: $(target)/$(_18s).adoc.xml
 
 .PHONY: epub
-epub: $(target)/g18s.adoc.xml.pandoc.epub
+epub: $(target)/$(_18s).adoc.xml.pandoc.epub
 
 .PHONY: html
-html: $(target)/g18s.adoc.html $(target)/g18s.adoc.plain.html $(target)/g18s.adoc.xml.pandoc.html
+html: $(target)/$(_18s).adoc.html $(target)/$(_18s).adoc.plain.html $(target)/$(_18s).adoc.xml.pandoc.html
 
 .PHONY: odt
-odt: $(target)/g18s.adoc.xml.pandoc.odt
+odt: $(target)/$(_18s).adoc.xml.pandoc.odt
 
 .PHONY: pdf
-pdf: $(target)/g18s.adoc.pdf
+pdf: $(target)/$(_18s).adoc.pdf
 
 .PHONY: rtf
-rtf: $(target)/g18s.adoc.xml.pandoc.rtf
+rtf: $(target)/$(_18s).adoc.xml.pandoc.rtf
+
+.PHONY: clean
+clean:
+	rm -f $(target)/*
 
 # ==============================================================
 # Convert to DocBook
 
-$(target)/g18s.adoc.xml: g18s.adoc
+$(target)/$(_18s).adoc.xml: $(_18s).adoc
 	asciidoctor --backend=docbook5 --out-file=$@ $<
 
 # ==============================================================
@@ -60,7 +69,7 @@ $(target)/g18s.adoc.xml: g18s.adoc
 # /usr/share/pandoc-1.9.4.2/templates/epub-page.html
 # /usr/share/pandoc-1.9.4.2/templates/epub-titlepage.html
 
-$(target)/g18s.adoc.xml.pandoc.epub: $(target)/g18s.adoc.xml
+$(target)/$(_18s).adoc.xml.pandoc.epub: $(target)/$(_18s).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=epub \
@@ -70,17 +79,17 @@ $(target)/g18s.adoc.xml.pandoc.epub: $(target)/g18s.adoc.xml
 # ==============================================================
 # Convert to HTML
 
-$(target)/g18s.adoc.plain.html: g18s.adoc
+$(target)/$(_18s).adoc.plain.html: $(_18s).adoc
 	adoc \
 		--attribute="stylesheet=none" \
 		--quiet \
 		--out-file=$@ \
 		$<
 
-$(target)/g18s.adoc.html: g18s.adoc
+$(target)/$(_18s).adoc.html: $(_18s).adoc
 	adoc --out-file=$@ $<
 
-$(target)/g18s.adoc.xml.pandoc.html: $(target)/g18s.adoc.xml
+$(target)/$(_18s).adoc.xml.pandoc.html: $(target)/$(_18s).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=html \
@@ -90,7 +99,7 @@ $(target)/g18s.adoc.xml.pandoc.html: $(target)/g18s.adoc.xml
 # ==============================================================
 # Convert to ODT
 
-$(target)/g18s.adoc.xml.pandoc.odt: $(target)/g18s.adoc.xml
+$(target)/$(_18s).adoc.xml.pandoc.odt: $(target)/$(_18s).adoc.xml
 	pandoc \
 		+RTS -K15000000 -RTS \
 		--from=docbook \
@@ -101,7 +110,7 @@ $(target)/g18s.adoc.xml.pandoc.odt: $(target)/g18s.adoc.xml
 # ==============================================================
 # Convert to PDF
 
-$(target)/g18s.adoc.pdf: g18s.adoc
+$(target)/$(_18s).adoc.pdf: $(_18s).adoc
 	asciidoctor-pdf --out-file=$@ $<
 
 # ==============================================================
@@ -111,7 +120,7 @@ $(target)/g18s.adoc.pdf: g18s.adoc
 # properly. The RTF marks are exposed. It seems they don't recognize the format
 # and take it as a plain file.
 
-$(target)/g18s.adoc.xml.pandoc.rtf: $(target)/g18s.adoc.xml
+$(target)/$(_18s).adoc.xml.pandoc.rtf: $(target)/$(_18s).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=rtf \
@@ -125,3 +134,6 @@ $(target)/g18s.adoc.xml.pandoc.rtf: $(target)/g18s.adoc.xml
 #
 # 2018-11-17: Create also EPUB, ODT, RTF (with problems) and PDF. Also create
 # an additional HTML by Pandoc.
+#
+# 2018-11-19: Adapt to long file names specified by variables, in order to add
+# more documents to the project.
