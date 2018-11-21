@@ -1,30 +1,68 @@
-= Plu Glosa Dokumenta
+= 18 Steps to Fluency in Euro-Glosa
 :author: Marcos Cruz (programandala.net)
-:revdate: 2018-11-14
-
-== Español
-
-_Plu Glosa Dokumenta_ (Documentos de Glosa) es un proyecto
-para convertir algunos documentos sobre la lengua Glosa, disponibles
-en glosa.org, al formato Asciidoctor, para mejorarlos y poder
-convertirlos en otros formatos más fáciles de usar.
-
-== Esperanto
-
-_Plu Glosa Dokumenta_ (Glosa-aj dokumentoj) estas projekto
-traduki dokumentojn pri la lingvo Gloso, disponeblajn en glosa.org, en
-Asciidoctor-formaton, por plibonigi ilin kaj ebligi ilian tradukon en
-aliajn pli facile uzeblajn formatojn.
+:revdate: 2018-11-21
 
 == English
 
-_Plu Glosa Dokumenta_ (Glosa Documents) is a project to convert some
-documents about the Glosa language, which are available in glosa.org,
-into Asciidoctor format, in order to improve them and make it possible
-to convert them into other formats, which are easier to use.
+Goals of this project:
+
+- Convert the book _18 Steps to Fluency in Euro-Glosa_, by Wendy
+  Ashby and Ronald Clark (1985-1992), into
+  http://asciidoctor[Asciidoctor] format, out of the HTML version made
+  by Marcel Springer (2001-2010) for http://glosa.org, in order to
+  create en EPUB e-book and other formats.
+- Write a Spanish version of the book.
+- Write an Esperanto version of the book.
+
+The messages of the Git repository are in Glosa.
+
+Author's website: http://programandala.net
+
+== Español
+
+Objetivos de este proyecto:
+
+- Convertir el libro _18 Steps to Fluency in Euro-Glosa_ (18 pasos
+  hacia la fluidez en Glosa), de Wendy Ashby y Ronald Clark
+  (1985-1992), al formato http://asciidoctor[Asciidoctor], a partir de
+  la versión HTML creada por Marcel Springer (2001-2010) para
+  http://glosa.org, con el objeto de obtener una versión en EPUB y
+  otros formatos.
+- Escribir una versión del libro en español.
+- Escribir una versión del libro en esperanto.
+
+Los comentarios del repositorio Git están en Glosa.
+
+Sede del autor: http://programandala.net
+
+== Esperanto
+
+Celoj de ĉi projekto:
+
+- Traduki la libron _18 Steps to Fluency in Euro-Glosa_ (18 ŝtupoj al
+  flueco in Gloso), de Wendy Ashby kaj Ronald Clark (1985-1992), en
+  http://asciidoctor[Asciidoctor]-formaton, el la HTML-a versio farita
+  de Marcel Springer (2001-2010) por http://glosa.org, cele krei
+  EPUB-bitlibron kaj aliajn formatojn.
+- Verki hispanan version de la libro.
+- Verki Esperanto-version de la libro.
+
+La notoj de la Git-a dosier-deponejo estas Glos-lingvaj.
+
+Ret-paĝaro de la aŬtoro: http://programandala.net
 
 == Glosa
 
-_Plu Glosa Dokumenta_ es projekti de translati plu Glosa dokumenta; qi
-es in glosa.org; ad-in Asciidoctor formati; te ma-boni mu e pote
-translati mu ad-in hetero formati; qi es ma facili uti.
+Plu tende de u-ci projekti:
+
+- Muta u libri _18 Steps to Fluency in Euro-Glosa_, ex Wendy Ashby e
+  Ronald Clark (1985-1992), ad-in http://asciidoctor[Asciidoctor]
+  formati, ab HTML dokumenta ge-grafo ex
+  Marcel Springer (2001-2010) pro http://glosa.org; te
+  face un EPUB e-libri e plu plus formati.
+- Grafo u Hispano versio de u libri.
+- Grafo un Esperanto versio de u libri.
+
+Plu nota de Git dokumenta-va es per Glosa.
+
+Inter-reti-lo de autori: http://programandala.net
