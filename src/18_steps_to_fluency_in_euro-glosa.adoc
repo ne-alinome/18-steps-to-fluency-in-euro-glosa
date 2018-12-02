@@ -1,11 +1,13 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201811191824]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812030005]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
-:revadate: 2018-11-19
+:revadate: 2018-12-02
 :toc:
 :toc-levels: 3
 :imagesdir: pic
+
+// Last modified 201812022351
 
 // =============================================================
 // XXX TODO
@@ -23,7 +25,7 @@ e-book version by Marcos Cruz (2018)
 - Review usage of full stops in quotes in English.
 - Fix format of "Sverige", etc. Search the original HTML version for
   bold and italic.
-- Add address to postcard and fix its layout.
+- Fix: Pandoc adds the alternative text under the images.
 
 Consult Marcel:
 
@@ -2571,16 +2573,9 @@ of 400,000 words, about 100,000 come from Latin or Greek, i. e. 1 out of every
 
 === A Postcard
 
-____
-
-ifeval::["{backend}" == "html5"]
-
-// XXX REMARK -- Add the stamp only when HTML5 is created directly by
-// Asciidoctor.
-
-image::g18s040.gif[Indian stamp,float="right"]
-
-endif::[]
+[cols="2"]
+|===
+|
 
 Na pa veni a Bombai pre tetra di. Klima es fo fo termo! Hotel es
 boni; fago-ma habe u fo boni gusta.
@@ -2589,7 +2584,20 @@ Panto-pe es ami. Mi fo amo   u-ci landa. Pa visita poli interese loka.
 Pa face poli  kali fotografi.
 
 Andrew
-____
+
+|
+
+{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
+{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
+image:g18s040.gif["",float="right"]
+
+Irene Cox,
+
+5, Duce Via
+
+London, Britain
+
+|===
 
 === Exercise 17
 

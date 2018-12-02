@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811220100
+# Last modified 201812022338
 # See change log at the end of the file
 
 # ==============================================================
@@ -26,7 +26,7 @@ target=target
 # Interface
 
 .PHONY: all
-all: epub html odt pdf
+all: epub html
 
 .PHONY: docbook
 docbook: $(target)/$(book).adoc.xml
@@ -64,7 +64,7 @@ clean:
 # Convert to DocBook
 
 $(target)/$(book).adoc.xml: $(book).adoc
-	asciidoctor --backend=docbook5 --out-file=$@ $<
+	adoc --backend=docbook5 --out-file=$@ $<
 
 # ==============================================================
 # Convert to EPUB
@@ -106,6 +106,9 @@ $(target)/$(book).adoc.xml.pandoc.html: $(target)/$(book).adoc.xml
 # ==============================================================
 # Convert to ODT
 
+# XXX FIXME -- The images can not be found, unless the <pic> directory is the
+# root of the project.
+
 $(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
 	pandoc \
 		+RTS -K15000000 -RTS \
@@ -116,6 +119,11 @@ $(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
 
 # ==============================================================
 # Convert to PDF
+
+# XXX FIXME -- Problem:
+#
+# asciidoctor: WARNING: GIF image format not supported. Install the
+# prawn-gmagick gem or convert g18s029.gif to PNG.
 
 $(target)/$(book).adoc.pdf: $(book).adoc
 	asciidoctor-pdf --out-file=$@ $<
