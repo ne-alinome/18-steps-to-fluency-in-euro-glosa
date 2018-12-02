@@ -1,6 +1,6 @@
 = 18 Steps to Fluency in Euro-Glosa
 :author: Marcos Cruz (programandala.net)
-:revdate: 2018-11-24
+:revdate: 2018-11-25
 
 == English
 
@@ -14,7 +14,7 @@ Goals of this project:
 - Write a Spanish version of the book.
 - Write an Esperanto version of the book.
 
-The messages of the Git repository are in Glosa.
+The first 33 messages of the Git repository are in Glosa.
 
 Author's website: http://programandala.net
 
@@ -31,7 +31,8 @@ Objetivos de este proyecto:
 - Escribir una versión del libro en español.
 - Escribir una versión del libro en esperanto.
 
-Los comentarios del repositorio Git están en Glosa.
+Los primeros 33 comentarios del repositorio Git están en Glosa. El
+resto está en inglés.
 
 Sede del autor: http://programandala.net
 
@@ -47,7 +48,8 @@ Celoj de ĉi projekto:
 - Verki hispanan version de la libro.
 - Verki Esperanto-version de la libro.
 
-La notoj de la Git-a dosier-deponejo estas Glos-lingvaj.
+La 33 unuaj notoj de la Git-a dosier-deponejo estas Glos-lingvaj. La
+ceteraj estas en la angla.
 
 Ret-paĝaro de la aŬtoro: http://programandala.net
 
@@ -63,6 +65,7 @@ Plu tende de u-ci projekti:
 - Grafo u Hispano versio de u libri.
 - Grafo un Esperanto versio de u libri.
 
-Plu nota de Git dokumenta-va es per Glosa.
+Plu 33 proto nota de Git dokumenta-va es per Glosa. Plu hetero nota es
+English.
 
 Inter-reti-lo de autori: http://programandala.net

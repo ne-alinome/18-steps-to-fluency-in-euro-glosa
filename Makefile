@@ -1,8 +1,8 @@
-# Makefile of _Plu Glosa Dokumenta_
+# Makefile of _18 Steps to Fluency in Euro-Glosa_
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201811191818
+# Last modified 201811220100
 # See change log at the end of the file
 
 # ==============================================================
@@ -16,20 +16,11 @@
 # ==============================================================
 # Config
 
-target=target
-
 VPATH=./src:./$(target)
 
-# ==============================================================
-# Book shortcuts
+book=18_steps_to_fluency_in_euro-glosa
 
-_18s=18_steps_to_fluency_in_euro-glosa
-dgv=de_glosa_verba
-gbr=glosa_basic_reference
-glm=glosalist_messages_1997-2003
-
-# Current book:
-book=$(_18s)
+target=target
 
 # ==============================================================
 # Interface
@@ -155,3 +146,5 @@ $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 # directory used for the Asciidoctor sources. Make the book name configurable.
 # These changes are needed in order to add more documents to the project. Also,
 # adapt in order to include images in the documents.
+#
+# 2018-11-22: Adapt to the new name of the project.
