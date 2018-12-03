@@ -1,13 +1,11 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812030005]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812030113]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
-:revadate: 2018-12-02
+:revadate: 2018-12-03
 :toc:
 :toc-levels: 3
 :imagesdir: pic
-
-// Last modified 201812022351
 
 // =============================================================
 // XXX TODO
@@ -15,17 +13,29 @@ e-book version by Marcos Cruz (2018)
 ////
 
 - Link steps mentioned in the Foreword.
-- Move the descriptions of the original table of contents to the
-  actual headings.
+- Link the entries in the original table of contents to the actual
+  headings.
 - Use curved quotes (but somehow they are not rendered in footnotes).
   Use italics instead?
-- Combine repeated footnotes.
+- Combine repeated footnotes (but only when the EPUB will be build
+  directly by Asciidoctor, because pandoc does not support shared
+  footnotes).
 - "(=" --> "(" and "/" ?
-- Add the "Pikto-Verba" and other exercises.
 - Review usage of full stops in quotes in English.
 - Fix format of "Sverige", etc. Search the original HTML version for
   bold and italic.
 - Fix: Pandoc adds the alternative text under the images.
+- Improve: Add images of numbers (1, 2, 3, 8) to the crossword puzzle.
+- Hide e-mail addresses with Asciidoctor variables, eg.
+  `jusli{dot}miller{at}juno{dot}com`.
+
+// XXX FIXME -- This does not work in pandoc:
+//
+// [#crossword_puzzle_1_solution]
+// === Pikto-Verba (Step 1)
+//
+// Because pandoc uses `id="pikto-verba-step-1"` in the title,
+// and the link does not work.
 
 Consult Marcel:
 
@@ -466,6 +476,48 @@ stands alone, but always in combinations of this kind. {by_ms}]
 | Mi pa grafo tri grama.      | I wrote three letters.
 | U bibli de plu enigma.      | A puzzle book.
 |===
+
+=== Pikto-verba
+
+image::g18s001.gif[Crossword puzzle,align="center"]
+
+==== Kata:
+
+*1*: image:g18s002.gif[fish]
+*2*: "2"
+*3*: image:g18s003.gif[reading]
+*4*: image:g18s004.gif[swimming]
+*5*: image:g18s005.gif[coin]
+*6*: "8"
+
+*9*:
+Mo, bi, tri, +
+dice Glosa ko mi. +
+Lekto, graf e ludi; +
+dice Glosa nu-di. 
+
+*11*: image:g18s008.gif[piano]
+*12*: image:g18s007.gif[dancer]
+*13*: image:g18s006.gif[letter]
+*14*: image:g18s009.gif[book]
+*15*: image:g18s010.gif[radio]
+*16*: image:g18s011.gif[dog with tongue]
+
+==== Trans:
+
+*5*: image:g18s012.gif[notes]
+*7*: image:g18s013.gif[sewing]
+*8*: image:g18s014.gif[singing]
+*9*: image:g18s015.gif[cooking]
+*10*: "3"
+*11*: image:g18s016.gif[postcard]
+*13*: image:g18s018.gif[writing]
+*16*: image:g18s020.gif[wandering]
+*17*: "1"
+*18*: image:g18s019.gif[wandering]
+*19*: image:g18s017.gif[wandering]
+
+You can see <<#pikto-verba-step-1,the solution>>.
 
 == Step 2
 
@@ -2136,18 +2188,20 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 
 image::g18s034.gif[Crossword puzzle,align="center"]
 
-// KATA: 1 Domi zoa.    2 No-foto tem.    3 Libe-tem aktivi.    4 Pre; non-avanti.
-//    5 Pusi urba.    9 Bibe-ma.    11 Ma de mono.    12 Oligo Glosa-pe komunika
-// per puta-???    13 Planeta alo Glosa karita.    14 Mo kata posi casa u-ci bio-
-// ra.    16 No-paleo.    17 Direkti.    18 Tem ex
-// helio-ana e helio-kata.
-// TRANS: 1 Foto e aero ki dia u-ci.    6 Gene info ex bibli.    7 Numera.
-// 8 Verba ex plu Glosa mekani.    10 Kine a certa loka.
-//    12 Kontra mei.    13 Famili celebra.    15 Mo-bi meno.    19 Este u-ci per
-// nasa.    20 Id tena neo bio.
+==== Kata:
 
-// XXX TODO --
-// Please click here for solution.
+*1*: Domi zoa. *2*: No-foto tem. *3*: Libe-tem aktivi. *4*: Pre; non-avanti. *5*:
+Pusi urba. *9*: Bibe-ma. *11*: Ma de mono. *12*: Oligo Glosa-pe komunika per
+puta-... *13*: Planeta alo Glosa karita. *14*: Mo kata posi casa u-ci bio- ra.
+*16*: No-paleo. *17*: Direkti. *18*: Tem ex helio-ana e helio-kata.
+
+==== Trans:
+
+*1*: Foto e aero ki dia u-ci. *6*: Gene info ex bibli. *7*: Numera.  *8*: Verba
+ex plu Glosa mekani. *10*: Kine a certa loka.  *12*: Kontra mei. *13*: Famili
+celebra. *15*: Mo-bi meno. *19*: Este u-ci per nasa. *20*: Id tena neo bio.
+
+You can see <<#kruci-verba-step-13,the solution>>.
 
 == Step 14
 
@@ -2911,36 +2965,47 @@ preferable.
 // (…) [missing: vocabulary list Glosa 1000 - English. Please refer to the Glosa
 // Internet Dictionary for the words.]
 
+== Key to Exercises
+
+ifeval::["{backend}" == "html5"]
+[#pikto-verba-step-1]
+endif::[]
+=== Pikto-Verba (Step 1)
+
+....
+    P             B
+L   I   N   M U S I K A
+E   S U E   O
+K   K   K A N T A   P O E S I
+T R I   T   E         K
+O     P O S T A K A R T A
+      I     A   O     O
+  G R A F O     R   B   R
+  R   N     G R E S I   A
+  A   O     L       B   D
+  M O       O       L   I
+  A     V A S A   F I T O
+            A
+....
+
+ifeval::["{backend}" == "html5"]
+[#kruci-verba-step-13]
+endif::[]
+=== Kruci-Verba (Step 13)
+
+....
+F E N E S T R A
+E   O   P   E   V
+L E K T O   T R I
+I   T   R   R   K
+S T I   T R O P I
+  E   M A     L
+G A M E   A N U A
+E   I   D   E   N
+O D O R I   O V A
+....
+
 ////
-=== Key to Exercises
-
-Pikto-Verba, Step 1:
-
-      P             B
-  L   I   N   M U S I K A
-  E   S U E   O
-  K   K   K A N T A   P O E S I
-  T R I   T   E         K
-  O     P O S T A K A R T A
-        I     A   O     O
-    G R A F O     R   B   R
-    R   N     G R E S I   A
-    A   O     L       B   D
-    M O       O       L   I
-    A     V A S A   F I T O
-              A
-
-Kruci-Verba, Step 13:
-
-  F E N E S T R A
-  E   O   P   E   V
-  L E K T O   T R I
-  I   T   R   R   K
-  S T I   T R O P I
-    E   M A     L
-  G A M E   A N U A
-  E   I   D   E   N
-  O D O R I   O V A
 
 // (…) [missing: Key to exercises. (…) The other solutions are already given with
 // the exercises's texts.]
