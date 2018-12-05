@@ -1,8 +1,8 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812030113]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812051838]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
-:revadate: 2018-12-03
+:revadate: 2018-12-05
 :toc:
 :toc-levels: 3
 :imagesdir: pic
@@ -12,9 +12,6 @@ e-book version by Marcos Cruz (2018)
 
 ////
 
-- Link steps mentioned in the Foreword.
-- Link the entries in the original table of contents to the actual
-  headings.
 - Use curved quotes (but somehow they are not rendered in footnotes).
   Use italics instead?
 - Combine repeated footnotes (but only when the EPUB will be build
@@ -47,6 +44,8 @@ Consult Marcel:
   lingua bi de tu?" his?
 - Is this note about the post office his?
 - Is this note about "u(n)" after place words his?
+- Why "Mega Glosa" and "Key to exercises" sections are missing from
+  the original table of contents?
 
 Errors in the HTML version:
 
@@ -167,35 +166,57 @@ table below are not contained in this HTML-version.
 
 == Original table of contentsfootnote:[{otoc_note} {by_ms}]
 
-- The Global Language for the Global Village
-- Pronunciation, Alphabet, Punctuation
-- Step 1: A, the; Past and future tenses; numbers, -co, picture
+// XXX REMARK --
+//
+// About internal cross-references:
+//
+// Notation `<<Step 1>>` is converted into DocBook `<xref
+// linkend="_step_1"/>`, which pandoc does not understand and replaces
+// with a "?".
+//
+// Notation `<<_step_1,Step 1>> is converted into DocBook `<link
+// linkend="_step_1">Step 1</link>`, which pando converts into `<a
+// href="#_step_1">Step 1</a>`, but the link does not work because its
+// markup is `<h1 id="step-1">Step 1</h1>`.
+//
+// Doing `== [[_step_1]]Step 1` makes no difference.
+//
+// Doing `== [[step-1]]Step 1` makes no difference.
+//
+// Using an attribute, `<<{step_1},Step 1>>`, is not possible.
+//
+// The solution is to use notation `<<step-1,Step 1>>`, i.e. using the
+// ID that pandoc calculates.
+
+- <<the-global-language-for-the-global-village,The Global Language for the Global Village>>
+- <<pronunciation,Pronunciation, Alphabet, Punctuation>>
+- <<step-1,Step 1>>: A, the; Past and future tenses; numbers, -co, picture
   crossword.
-- Step 2: Would, if, professions, colors, place (words & picture)
-- Step 3: Not, negative. Shops. Living things. Buildings
-- Step 4: Forming questions; Parts of the body; Rings and Things.
+- <<step-2,Step 2>>: Would, if, professions, colors, place (words & picture)
+- <<step-3,Step 3>>: Not, negative. Shops. Living things. Buildings
+- <<step-4,Step 4>>: Forming questions; Parts of the body; Rings and Things.
   Vessels.  Furniture.
-- Step 5: What? Which? Greetings, Devices.
-- Step 6: This & that. These & those; Places. Materials. Sets. Thread.
+- <<step-5,Step 5>>: What? Which? Greetings, Devices.
+- <<step-6,Step 6>>: This & that. These & those; Places. Materials. Sets. Thread.
   Stone; Things to eat (picture page and phrases).
-- Step 7: Get. Become. Got; Opposites. Get & got. Clothes. Cloths;
+- <<step-7,Step 7>>: Get. Become. Got; Opposites. Get & got. Clothes. Cloths;
   Travel (picture & phrases).
-- Step 8: May, perhaps, must, have to; The house (picture & phrases).
-- Step 9: Time, during; Street scene (picture & text); Psalm 23
+- <<step-8,Step 8>>: May, perhaps, must, have to; The house (picture & phrases).
+- <<step-9,Step 9>>: Time, during; Street scene (picture & text); Psalm 23
   (parallel text).
-- Step 10: Very, intense; Hospital (picture & phrases).
-- Step 11: Ought to, should; Communications (picture & phrases).
-- Step 12: More than, less than, as big as; Tools (picture & phrases).
-- Step 13: Oneself. One's own; Post Office (picture & phrases).
-- Step 14: Most, -est; Camping (picture & phrases).
-- Step 15: ..., who. ..., which; Apiculture (picture & phrases).
-- Step 16: Cause, make, switch on; Tri Andro in Navi (parallel text).
-- Step 17: Near Future. Recent Past; Shakespeare (parallel text).
-- Step 18: Continue, -ing, still;
-- Some English idioms. Mega Glosa.
-- Glosa Mechanics.
-- Glosa 1000 - English Vocabulary
-- English - Glosa 1000 Vocabulary
+- <<step-10,Step 10>>: Very, intense; Hospital (picture & phrases).
+- <<step-11,Step 11>>: Ought to, should; Communications (picture & phrases).
+- <<step-12,Step 12>>: More than, less than, as big as; Tools (picture & phrases).
+- <<step-13,Step 13>>: Oneself. One's own; Post Office (picture & phrases).
+- <<step-14,Step 14>>: Most, -est; Camping (picture & phrases).
+- <<step-15,Step 15>>: ..., who. ..., which; Apiculture (picture & phrases).
+- <<step-16,Step 16>>: Cause, make, switch on; Tri Andro in Navi (parallel text).
+- <<step-17,Step 17>>: Near Future. Recent Past; Shakespeare (parallel text).
+- <<step-18,Step 18>>: Continue, -ing, still;
+- <<some-english-idioms, Some English idioms. Mega Glosa>>.
+- <<glosa-mechanics,Glosa Mechanics>>.
+- <<glosa-1000---english,Glosa 1000 - English Vocabulary>>.
+- <<English---Glosa-1000,English - Glosa 1000 Vocabulary>>.
 
 == The Global Language for the Global Village
 
@@ -2627,7 +2648,7 @@ of 400,000 words, about 100,000 come from Latin or Greek, i. e. 1 out of every
 
 === A Postcard
 
-[cols="2"]
+[cols="2", grid="none"]
 |===
 |
 
