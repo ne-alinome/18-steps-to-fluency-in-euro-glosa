@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201812022338
+# Last modified 201812052111
 # See change log at the end of the file
 
 # ==============================================================
@@ -12,6 +12,7 @@
 # - asciidoctor
 # - asciidoctor-pdf
 # - pandoc
+# - ImageMagick
 
 # ==============================================================
 # Config
@@ -26,29 +27,44 @@ target=target
 # Interface
 
 .PHONY: all
-all: epub html
+all: epub
 
 .PHONY: docbook
-docbook: $(target)/$(book).adoc.xml
+docbook: \
+	png \
+	$(target)/$(book).adoc.xml
 
 .PHONY: epub
-epub: $(target)/$(book).adoc.xml.pandoc.epub
+epub: \
+	png \
+	$(target)/$(book).adoc.xml.pandoc.epub
 
 .PHONY: picdir
 picdir:
 	ln --force --symbolic --target-directory=$(target) ../src/pic
 
 .PHONY: html
-html: picdir $(target)/$(book).adoc.html $(target)/$(book).adoc.plain.html $(target)/$(book).adoc.xml.pandoc.html
+html: \
+	picdir \
+	png \
+	$(target)/$(book).adoc.html \
+	$(target)/$(book).adoc.plain.html \
+	$(target)/$(book).adoc.xml.pandoc.html
 
 .PHONY: odt
-odt: $(target)/$(book).adoc.xml.pandoc.odt
+odt: \
+	png \
+	$(target)/$(book).adoc.xml.pandoc.odt
 
 .PHONY: pdf
-pdf: $(target)/$(book).adoc.pdf
+pdf: \
+	png \
+	$(target)/$(book).adoc.pdf
 
 .PHONY: rtf
-rtf: $(target)/$(book).adoc.xml.pandoc.rtf
+rtf: \
+	png \
+	$(target)/$(book).adoc.xml.pandoc.rtf
 
 .PHONY: clean
 clean:
@@ -59,6 +75,18 @@ clean:
 		$(target)/*.pdf \
 		$(target)/*.rtf \
 		$(target)/*.xml
+
+# ==============================================================
+# Convert images
+
+target/pic/%.png: src/pic/%.gif
+	convert $< $@
+
+.PHONY: png
+png:
+	@for image in $(notdir $(basename $(wildcard src/pic/*.gif))); do \
+		make target/pic/$$image.png; \
+	done;
 
 # ==============================================================
 # Convert to DocBook
@@ -106,39 +134,45 @@ $(target)/$(book).adoc.xml.pandoc.html: $(target)/$(book).adoc.xml
 # ==============================================================
 # Convert to ODT
 
-# XXX FIXME -- The images can not be found, unless the <pic> directory is the
-# root of the project.
+# XXX FIXME -- The images can not be found, unless the <pic> directory is in
+# the root of the project. A symbolic link is created by the recipe and deleted
+# at the end.
+
+# XXX WARNING -- Some images don't fit the page. They have to be resized
+# manually.
 
 $(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
+	ln -sf target/pic pic
 	pandoc \
 		+RTS -K15000000 -RTS \
 		--from=docbook \
 		--to=odt \
 		--output=$@ \
 		$<
+	rm -f pic
 
 # ==============================================================
 # Convert to PDF
 
-# XXX FIXME -- Problem:
+# XXX REMARK --
 #
 # asciidoctor: WARNING: GIF image format not supported. Install the
 # prawn-gmagick gem or convert g18s029.gif to PNG.
 
-$(target)/$(book).adoc.pdf: $(book).adoc
+$(target)/$(book).adoc.pdf: $(book).adoc png
 	asciidoctor-pdf --out-file=$@ $<
 
 # ==============================================================
 # Convert to RTF
 
-# XXX FIXME -- Both LibreOffice Writer and AbiWord don't read this RTF file
-# properly. The RTF marks are exposed. It seems they don't recognize the format
-# and take it as a plain file.
+# XXX WARNING -- Tables are not properly converted: the contents of the row are
+# displayed below their row.
 
 $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=rtf \
+		--standalone \
 		--output=$@ \
 		$<
 
@@ -156,3 +190,6 @@ $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 # adapt in order to include images in the documents.
 #
 # 2018-11-22: Adapt to the new name of the project.
+#
+# 2018-12-05: Add conversion of the original GIF images, which asciidoctor-pdf
+# does not support, into PNGs. Fix RTF output (`--standalone` was missing).

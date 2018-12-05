@@ -1,4 +1,4 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812051838]
+= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812052045]
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
@@ -6,6 +6,7 @@ e-book version by Marcos Cruz (2018)
 :toc:
 :toc-levels: 3
 :imagesdir: pic
+:imgext: png
 
 // =============================================================
 // XXX TODO
@@ -25,14 +26,8 @@ e-book version by Marcos Cruz (2018)
 - Improve: Add images of numbers (1, 2, 3, 8) to the crossword puzzle.
 - Hide e-mail addresses with Asciidoctor variables, eg.
   `jusli{dot}miller{at}juno{dot}com`.
-
-// XXX FIXME -- This does not work in pandoc:
-//
-// [#crossword_puzzle_1_solution]
-// === Pikto-Verba (Step 1)
-//
-// Because pandoc uses `id="pikto-verba-step-1"` in the title,
-// and the link does not work.
+- Fix: cross references in the old table of contents don't work in the
+  PDF created by asciidoctor-pdf.
 
 Consult Marcel:
 
@@ -500,15 +495,15 @@ stands alone, but always in combinations of this kind. {by_ms}]
 
 === Pikto-verba
 
-image::g18s001.gif[Crossword puzzle,align="center"]
+image::g18s001.{imgext}[Crossword puzzle,align="center"]
 
 ==== Kata:
 
-*1*: image:g18s002.gif[fish]
+*1*: image:g18s002.{imgext}[fish]
 *2*: "2"
-*3*: image:g18s003.gif[reading]
-*4*: image:g18s004.gif[swimming]
-*5*: image:g18s005.gif[coin]
+*3*: image:g18s003.{imgext}[reading]
+*4*: image:g18s004.{imgext}[swimming]
+*5*: image:g18s005.{imgext}[coin]
 *6*: "8"
 
 *9*:
@@ -517,26 +512,26 @@ dice Glosa ko mi. +
 Lekto, graf e ludi; +
 dice Glosa nu-di. 
 
-*11*: image:g18s008.gif[piano]
-*12*: image:g18s007.gif[dancer]
-*13*: image:g18s006.gif[letter]
-*14*: image:g18s009.gif[book]
-*15*: image:g18s010.gif[radio]
-*16*: image:g18s011.gif[dog with tongue]
+*11*: image:g18s008.{imgext}[piano]
+*12*: image:g18s007.{imgext}[dancer]
+*13*: image:g18s006.{imgext}[letter]
+*14*: image:g18s009.{imgext}[book]
+*15*: image:g18s010.{imgext}[radio]
+*16*: image:g18s011.{imgext}[dog with tongue]
 
 ==== Trans:
 
-*5*: image:g18s012.gif[notes]
-*7*: image:g18s013.gif[sewing]
-*8*: image:g18s014.gif[singing]
-*9*: image:g18s015.gif[cooking]
+*5*: image:g18s012.{imgext}[notes]
+*7*: image:g18s013.{imgext}[sewing]
+*8*: image:g18s014.{imgext}[singing]
+*9*: image:g18s015.{imgext}[cooking]
 *10*: "3"
-*11*: image:g18s016.gif[postcard]
-*13*: image:g18s018.gif[writing]
-*16*: image:g18s020.gif[wandering]
+*11*: image:g18s016.{imgext}[postcard]
+*13*: image:g18s018.{imgext}[writing]
+*16*: image:g18s020.{imgext}[wandering]
 *17*: "1"
-*18*: image:g18s019.gif[wandering]
-*19*: image:g18s017.gif[wandering]
+*18*: image:g18s019.{imgext}[wandering]
+*19*: image:g18s017.{imgext}[wandering]
 
 You can see <<#pikto-verba-step-1,the solution>>.
 
@@ -704,9 +699,9 @@ Deutschland, Rome Roma.
 // XXX FIXME -- The commas corrupt the image caption in EPUB. A hyphen
 // is used instead.
 
-image::g18s021.gif[Diagram about the prepositions "epi" - "intra" - "dia" - "peri"]
-image::g18s022.gif[Diagram about the prepositions "ana" - "kata"]
-image::g18s023.gif[Diagram about the prepositions]
+image::g18s021.{imgext}[Diagram about the prepositions "epi" - "intra" - "dia" - "peri"]
+image::g18s022.{imgext}[Diagram about the prepositions "ana" - "kata"]
+image::g18s023.{imgext}[Diagram about the prepositions]
 
 NOTE: Since a place word is usually followed by a noun, there is no
 need for it to be followed by "u(n)", the article.
@@ -813,11 +808,11 @@ time, eg.
 
 === Living Things
 
-image::g18s024.gif[horse, donkey, pig, lion,align="center"]
-image::g18s025.gif[cow, ape, dog, cat,align="center"]
-image::g18s026.gif[mouse, frog, hedgehog, squirrel, hen, duck,align="center"]
-image::g18s027.gif[bee, snake, kangaroo, sheep, butterfly, fish,align="center"] 
-image::g18s028.gif[bird, spider, flower, worm, mushroom,align="center"]
+image::g18s024.{imgext}[horse, donkey, pig, lion,align="center"]
+image::g18s025.{imgext}[cow, ape, dog, cat,align="center"]
+image::g18s026.{imgext}[mouse, frog, hedgehog, squirrel, hen, duck,align="center"]
+image::g18s027.{imgext}[bee, snake, kangaroo, sheep, butterfly, fish,align="center"] 
+image::g18s028.{imgext}[bird, spider, flower, worm, mushroom,align="center"]
 
 === Exercise 3
 
@@ -855,7 +850,7 @@ image::g18s028.gif[bird, spider, flower, worm, mushroom,align="center"]
 
 [.right]
 --
-domi image:g18s029.gif[house]
+domi image:g18s029.{imgext}[house]
 --
 
 // endif::[]
@@ -1589,7 +1584,7 @@ ____
 
 === A Street Scene
 
-image::g18s032.gif[A street,align="center"]
+image::g18s032.{imgext}[A street,align="center"]
 
 U-ci es u strata-vista. U longi rekti rota via(1)e bi pedi-via(2). Prima, skop
 u laevo pedi-via(3).
@@ -2115,7 +2110,7 @@ e habe sati bibe-hidro.
 
 === Post Office
 
-image::g18s033.gif[Post office,align="center"]
+image::g18s033.{imgext}[Post office,align="center"]
 
 NOTE: on the sign "KLUDE" would be better than "KLAUSTRO", or even
 better "NE- FUNKTIO". And "FUNKTIO" is perhaps better than "APRI".
@@ -2207,7 +2202,7 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 
 === Kruci-Verba
 
-image::g18s034.gif[Crossword puzzle,align="center"]
+image::g18s034.{imgext}[Crossword puzzle,align="center"]
 
 ==== Kata:
 
@@ -2664,7 +2659,7 @@ Andrew
 
 {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
 {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
-image:g18s040.gif["",float="right"]
+image:g18s040.{imgext}["",float="right"]
 
 Irene Cox,
 
@@ -3046,7 +3041,7 @@ THIRD-WORLD, CONSERVATION
 // XXX REMARK -- This quote is not verbatim the copy in section _The
 // Global Language for the Global Village_.
 
-image::g18s035.gif[Diagram with Glosa-logo,align="center"]
+image::g18s035.{imgext}[Diagram with Glosa-logo,align="center"]
 
 [quote, Prof. Hogben, Vocabulary of Science]
 ____
