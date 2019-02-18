@@ -1,18 +1,16 @@
 = 18 Steps to Fluency in Euro-Glosa
 :author: Marcos Cruz (programandala.net)
-:revdate: 2018-11-25
+:revdate: 2019-02-18
 
 == English
 
 Goals of this project:
 
-- Convert the book _18 Steps to Fluency in Euro-Glosa_, by Wendy
-  Ashby and Ronald Clark (1985-1992), into
-  http://asciidoctor.org[Asciidoctor] format, out of the HTML version made
-  by Marcel Springer (2001-2010) for http://glosa.org, in order to
-  create en EPUB e-book and other formats.
-- Write a Spanish version of the book.
-- Write an Esperanto version of the book.
+- Convert the book _18 Steps to Fluency in Euro-Glosa_, by Wendy Ashby
+  and Ronald Clark (1985-1992), into
+  http://asciidoctor.org[Asciidoctor] format, out of the HTML version
+  made by Marcel Springer (2001-2010) for http://glosa.org, in order
+  to create en EPUB e-book and other formats.
 
 The first 33 messages of the Git repository are in Glosa.
 
@@ -24,12 +22,10 @@ Objetivos de este proyecto:
 
 - Convertir el libro _18 Steps to Fluency in Euro-Glosa_ (18 pasos
   hacia la fluidez en Glosa), de Wendy Ashby y Ronald Clark
-  (1985-1992), al formato http://asciidoctor.org[Asciidoctor], a partir de
-  la versión HTML creada por Marcel Springer (2001-2010) para
-  http://glosa.org, con el objeto de obtener una versión en EPUB y
-  otros formatos.
-- Escribir una versión del libro en español.
-- Escribir una versión del libro en esperanto.
+  (1985-1992), al formato http://asciidoctor.org[Asciidoctor], a
+  partir de la versión HTML creada por Marcel Springer (2001-2010)
+  para http://glosa.org, con el objeto de obtener una versión en EPUB
+  y otros formatos.
 
 Los primeros 33 comentarios del repositorio Git están en Glosa. El
 resto está en inglés.
@@ -42,11 +38,9 @@ Celoj de ĉi projekto:
 
 - Traduki la libron _18 Steps to Fluency in Euro-Glosa_ (18 ŝtupoj al
   flueco in Gloso), de Wendy Ashby kaj Ronald Clark (1985-1992), en
-  http://asciidoctor.org[Asciidoctor]-formaton, el la HTML-a versio farita
-  de Marcel Springer (2001-2010) por http://glosa.org, cele krei
-  EPUB-bitlibron kaj aliajn formatojn.
-- Verki hispanan version de la libro.
-- Verki Esperanto-version de la libro.
+  http://asciidoctor.org[Asciidoctor]-formaton, el la HTML-a versio
+  farita de Marcel Springer (2001-2010) por http://glosa.org, cele
+  krei EPUB-bitlibron kaj aliajn formatojn.
 
 La 33 unuaj notoj de la Git-a dosier-deponejo estas Glos-lingvaj. La
 ceteraj estas en la angla.
@@ -59,13 +53,10 @@ Plu tende de u-ci projekti:
 
 - Muta u libri _18 Steps to Fluency in Euro-Glosa_, ex Wendy Ashby e
   Ronald Clark (1985-1992), ad-in http://asciidoctor.org[Asciidoctor]
-  formati, ab HTML dokumenta ge-grafo ex
-  Marcel Springer (2001-2010) pro http://glosa.org; te
-  face un EPUB e-libri e plu plus formati.
-- Grafo u Hispano versio de u libri.
-- Grafo un Esperanto versio de u libri.
+  formati, ab HTML dokumenta ge-grafo ex Marcel Springer (2001-2010)
+  pro http://glosa.org; te face un EPUB e-bibli e plu hetero formati.
 
-Plu 33 proto nota de Git dokumenta-va es per Glosa. Plu hetero nota es
-English.
+Plu 33 proto nota de Git dokumenta-va es in Glosa. Plu hetero nota es
+in English.
 
 Inter-reti-lo de autori: http://programandala.net
