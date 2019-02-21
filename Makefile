@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201812052111
+# Last modified 201902211545
 # See change log at the end of the file
 
 # ==============================================================
@@ -31,12 +31,12 @@ all: epub
 
 .PHONY: docbook
 docbook: \
-	png \
+	images \
 	$(target)/$(book).adoc.xml
 
 .PHONY: epub
 epub: \
-	png \
+	images \
 	$(target)/$(book).adoc.xml.pandoc.epub
 
 .PHONY: picdir
@@ -46,24 +46,24 @@ picdir:
 .PHONY: html
 html: \
 	picdir \
-	png \
+	images \
 	$(target)/$(book).adoc.html \
 	$(target)/$(book).adoc.plain.html \
 	$(target)/$(book).adoc.xml.pandoc.html
 
 .PHONY: odt
 odt: \
-	png \
+	images \
 	$(target)/$(book).adoc.xml.pandoc.odt
 
 .PHONY: pdf
 pdf: \
-	png \
+	images \
 	$(target)/$(book).adoc.pdf
 
 .PHONY: rtf
 rtf: \
-	png \
+	images \
 	$(target)/$(book).adoc.xml.pandoc.rtf
 
 .PHONY: clean
@@ -77,16 +77,36 @@ clean:
 		$(target)/*.xml
 
 # ==============================================================
-# Convert images
+# Images 
 
+# XXX REMARK -- Not used
 target/pic/%.png: src/pic/%.gif
 	convert $< $@
 
-.PHONY: png
-png:
+# XXX REMARK -- Not used
+.PHONY: PNGs
+PNGs:
 	@for image in $(notdir $(basename $(wildcard src/pic/*.gif))); do \
 		make target/pic/$$image.png; \
 	done;
+
+# XXX TODO --
+
+src/pic/1.png: src/1.txt
+	gm convert \
+		-page 80x180 \
+		-background white -fill black \
+		-border 0 \
+		-pointsize 170 \
+		-font Courier \
+		text:$< \
+		$@
+
+.PHONY: digits
+digits: src/pic/1.png
+
+.PHONY: images
+images: digits
 
 # ==============================================================
 # Convert to DocBook
@@ -159,7 +179,7 @@ $(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
 # asciidoctor: WARNING: GIF image format not supported. Install the
 # prawn-gmagick gem or convert g18s029.gif to PNG.
 
-$(target)/$(book).adoc.pdf: $(book).adoc png
+$(target)/$(book).adoc.pdf: $(book).adoc images
 	asciidoctor-pdf --out-file=$@ $<
 
 # ==============================================================
@@ -193,3 +213,5 @@ $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 #
 # 2018-12-05: Add conversion of the original GIF images, which asciidoctor-pdf
 # does not support, into PNGs. Fix RTF output (`--standalone` was missing).
+#
+# 2019-02-21: Improve handling of images: Use the PNGs directly.

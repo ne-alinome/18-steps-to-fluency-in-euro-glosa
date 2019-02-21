@@ -1,0 +1,7 @@
+= TO-DO of _18 Steps to Fluency in Euro-Glosa_
+:author: Marcos Cruz (programandala.net)
+:revdate: 2019-02-21
+
+- Fix: The texts of Shakesepeare don't split into two pages.
+- Create the pictures of the digits.
+- Improve and finish section "About this e-book".

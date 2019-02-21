@@ -1,12 +1,20 @@
-= 18 Steps to Fluency in Euro-Glosa [e-book draft last modified 201812052045]
+= 18 Steps to Fluency in Euro-Glosa
 :author: Wendy Ashby and Ronald Clark (1985-1992); \
 HTML version by Marcel Springer (2001-2010); \
 e-book version by Marcos Cruz (2018)
 :revadate: 2018-12-05
 :toc:
 :toc-levels: 3
-:imagesdir: pic
 :imgext: png
+:imagesdir: src/pic
+ifdef::backend-pdf[]
+:doctype: book
+:imagesdir: pic
+:toc: macro
+:toclevels: 3
+endif::[]
+
+// Last modified 201902211545
 
 // =============================================================
 // XXX TODO
@@ -529,7 +537,7 @@ dice Glosa nu-di.
 *11*: image:g18s016.{imgext}[postcard]
 *13*: image:g18s018.{imgext}[writing]
 *16*: image:g18s020.{imgext}[wandering]
-*17*: "1"
+*17*: image:1.{imgext}[1]
 *18*: image:g18s019.{imgext}[wandering]
 *19*: image:g18s017.{imgext}[wandering]
 
