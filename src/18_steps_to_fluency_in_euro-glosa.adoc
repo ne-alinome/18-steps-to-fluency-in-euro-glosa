@@ -2,7 +2,6 @@
 :authors: Wendy Ashby, Ronald Clark
 :toc:
 :toc-levels: 3
-:imgext: png
 :imagesdir: src/pic
 ifdef::backend-pdf[]
 :doctype: book
@@ -11,7 +10,7 @@ ifdef::backend-pdf[]
 :toclevels: 3
 endif::[]
 
-// Last modified 201902211545
+// Last modified 201902211815
 
 // =============================================================
 // XXX TODO
@@ -180,7 +179,7 @@ table below are not contained in this HTML-version.
 // with a "?".
 //
 // Notation `<<_step_1,Step 1>> is converted into DocBook `<link
-// linkend="_step_1">Step 1</link>`, which pando converts into `<a
+// linkend="_step_1">Step 1</link>`, which pandoc converts into `<a
 // href="#_step_1">Step 1</a>`, but the link does not work because its
 // markup is `<h1 id="step-1">Step 1</h1>`.
 //
@@ -193,35 +192,35 @@ table below are not contained in this HTML-version.
 // The solution is to use notation `<<step-1,Step 1>>`, i.e. using the
 // ID that pandoc calculates.
 
-- <<the-global-language-for-the-global-village,The Global Language for the Global Village>>
-- <<pronunciation,Pronunciation, Alphabet, Punctuation>>
-- <<step-1,Step 1>>: A, the; Past and future tenses; numbers, -co, picture
+- <<_the_global_language_for_the_global_village,The Global Language for the Global Village>>
+- <<_pronunciation,Pronunciation, Alphabet, Punctuation>>
+- <<_step_1,Step 1>>: A, the; Past and future tenses; numbers, -co, picture
   crossword.
-- <<step-2,Step 2>>: Would, if, professions, colors, place (words & picture)
-- <<step-3,Step 3>>: Not, negative. Shops. Living things. Buildings
-- <<step-4,Step 4>>: Forming questions; Parts of the body; Rings and Things.
+- <<_step_2,Step 2>>: Would, if, professions, colors, place (words & picture)
+- <<_step_3,Step 3>>: Not, negative. Shops. Living things. Buildings
+- <<_step_4,Step 4>>: Forming questions; Parts of the body; Rings and Things.
   Vessels.  Furniture.
-- <<step-5,Step 5>>: What? Which? Greetings, Devices.
-- <<step-6,Step 6>>: This & that. These & those; Places. Materials. Sets. Thread.
+- <<_step_5,Step 5>>: What? Which? Greetings, Devices.
+- <<_step_6,Step 6>>: This & that. These & those; Places. Materials. Sets. Thread.
   Stone; Things to eat (picture page and phrases).
-- <<step-7,Step 7>>: Get. Become. Got; Opposites. Get & got. Clothes. Cloths;
+- <<_step_7,Step 7>>: Get. Become. Got; Opposites. Get & got. Clothes. Cloths;
   Travel (picture & phrases).
-- <<step-8,Step 8>>: May, perhaps, must, have to; The house (picture & phrases).
-- <<step-9,Step 9>>: Time, during; Street scene (picture & text); Psalm 23
+- <<_step_8,Step 8>>: May, perhaps, must, have to; The house (picture & phrases).
+- <<_step_9,Step 9>>: Time, during; Street scene (picture & text); Psalm 23
   (parallel text).
-- <<step-10,Step 10>>: Very, intense; Hospital (picture & phrases).
-- <<step-11,Step 11>>: Ought to, should; Communications (picture & phrases).
-- <<step-12,Step 12>>: More than, less than, as big as; Tools (picture & phrases).
-- <<step-13,Step 13>>: Oneself. One's own; Post Office (picture & phrases).
-- <<step-14,Step 14>>: Most, -est; Camping (picture & phrases).
-- <<step-15,Step 15>>: ..., who. ..., which; Apiculture (picture & phrases).
-- <<step-16,Step 16>>: Cause, make, switch on; Tri Andro in Navi (parallel text).
-- <<step-17,Step 17>>: Near Future. Recent Past; Shakespeare (parallel text).
-- <<step-18,Step 18>>: Continue, -ing, still;
-- <<some-english-idioms, Some English idioms. Mega Glosa>>.
-- <<glosa-mechanics,Glosa Mechanics>>.
-- <<glosa-1000---english,Glosa 1000 - English Vocabulary>>.
-- <<English---Glosa-1000,English - Glosa 1000 Vocabulary>>.
+- <<_step_10,Step 10>>: Very, intense; Hospital (picture & phrases).
+- <<_step_11,Step 11>>: Ought to, should; Communications (picture & phrases).
+- <<_step_12,Step 12>>: More than, less than, as big as; Tools (picture & phrases).
+- <<_step_13,Step 13>>: Oneself. One's own; Post Office (picture & phrases).
+- <<_step_14,Step 14>>: Most, -est; Camping (picture & phrases).
+- <<_step_15,Step 15>>: ..., who. ..., which; Apiculture (picture & phrases).
+- <<_step_16,Step 16>>: Cause, make, switch on; Tri Andro in Navi (parallel text).
+- <<_step_17,Step 17>>: Near Future. Recent Past; Shakespeare (parallel text).
+- <<_step_18,Step 18>>: Continue, -ing, still;
+- <<_some_english_idioms, Some English idioms. Mega Glosa>>.
+- <<_glosa_mechanics,Glosa Mechanics>>.
+- <<_glosa_1000_english,Glosa 1000 - English Vocabulary>>.
+- <<_english_glosa_1000,English - Glosa 1000 Vocabulary>>.
 
 == The Global Language for the Global Village
 
@@ -505,15 +504,15 @@ stands alone, but always in combinations of this kind. {by_ms}]
 
 === Pikto-verba
 
-image::g18s001.{imgext}[Crossword puzzle,align="center"]
+image::g18s001.png[Crossword puzzle,align="center"]
 
 ==== Kata:
 
-*1*: image:g18s002.{imgext}[fish]
+*1*: image:g18s002.png[fish]
 *2*: "2"
-*3*: image:g18s003.{imgext}[reading]
-*4*: image:g18s004.{imgext}[swimming]
-*5*: image:g18s005.{imgext}[coin]
+*3*: image:g18s003.png[reading]
+*4*: image:g18s004.png[swimming]
+*5*: image:g18s005.png[coin]
 *6*: "8"
 
 *9*:
@@ -522,28 +521,28 @@ dice Glosa ko mi. +
 Lekto, graf e ludi; +
 dice Glosa nu-di. 
 
-*11*: image:g18s008.{imgext}[piano]
-*12*: image:g18s007.{imgext}[dancer]
-*13*: image:g18s006.{imgext}[letter]
-*14*: image:g18s009.{imgext}[book]
-*15*: image:g18s010.{imgext}[radio]
-*16*: image:g18s011.{imgext}[dog with tongue]
+*11*: image:g18s008.png[piano]
+*12*: image:g18s007.png[dancer]
+*13*: image:g18s006.png[letter]
+*14*: image:g18s009.png[book]
+*15*: image:g18s010.png[radio]
+*16*: image:g18s011.png[dog with tongue]
 
 ==== Trans:
 
-*5*: image:g18s012.{imgext}[notes]
-*7*: image:g18s013.{imgext}[sewing]
-*8*: image:g18s014.{imgext}[singing]
-*9*: image:g18s015.{imgext}[cooking]
+*5*: image:g18s012.png[notes]
+*7*: image:g18s013.png[sewing]
+*8*: image:g18s014.png[singing]
+*9*: image:g18s015.png[cooking]
 *10*: "3"
-*11*: image:g18s016.{imgext}[postcard]
-*13*: image:g18s018.{imgext}[writing]
-*16*: image:g18s020.{imgext}[wandering]
-*17*: image:1.{imgext}[1]
-*18*: image:g18s019.{imgext}[wandering]
-*19*: image:g18s017.{imgext}[wandering]
+*11*: image:g18s016.png[postcard]
+*13*: image:g18s018.png[writing]
+*16*: image:g18s020.png[wandering]
+*17*: image:1.png[1]
+*18*: image:g18s019.png[wandering]
+*19*: image:g18s017.png[wandering]
 
-You can see <<#pikto-verba-step-1,the solution>>.
+You can see <<_pikto_verba_step_1,the solution>>.
 
 == Step 2
 
@@ -709,9 +708,9 @@ Deutschland, Rome Roma.
 // XXX FIXME -- The commas corrupt the image caption in EPUB. A hyphen
 // is used instead.
 
-image::g18s021.{imgext}[Diagram about the prepositions "epi" - "intra" - "dia" - "peri"]
-image::g18s022.{imgext}[Diagram about the prepositions "ana" - "kata"]
-image::g18s023.{imgext}[Diagram about the prepositions]
+image::g18s021.png[Diagram about the prepositions "epi" - "intra" - "dia" - "peri"]
+image::g18s022.png[Diagram about the prepositions "ana" - "kata"]
+image::g18s023.png[Diagram about the prepositions]
 
 NOTE: Since a place word is usually followed by a noun, there is no
 need for it to be followed by "u(n)", the article.
@@ -818,11 +817,11 @@ time, eg.
 
 === Living Things
 
-image::g18s024.{imgext}[horse, donkey, pig, lion,align="center"]
-image::g18s025.{imgext}[cow, ape, dog, cat,align="center"]
-image::g18s026.{imgext}[mouse, frog, hedgehog, squirrel, hen, duck,align="center"]
-image::g18s027.{imgext}[bee, snake, kangaroo, sheep, butterfly, fish,align="center"] 
-image::g18s028.{imgext}[bird, spider, flower, worm, mushroom,align="center"]
+image::g18s024.png["horse, donkey, pig, lion",align="center"]
+image::g18s025.png["cow, ape, dog, cat",align="center"]
+image::g18s026.png["mouse, frog, hedgehog, squirrel, hen, duck",align="center"]
+image::g18s027.png["bee, snake, kangaroo, sheep, butterfly, fish",align="center"] 
+image::g18s028.png["bird, spider, flower, worm, mushroom",align="center"]
 
 === Exercise 3
 
@@ -860,7 +859,7 @@ image::g18s028.{imgext}[bird, spider, flower, worm, mushroom,align="center"]
 
 [.right]
 --
-domi image:g18s029.{imgext}[house]
+domi image:g18s029.png[house]
 --
 
 // endif::[]
@@ -1594,7 +1593,7 @@ ____
 
 === A Street Scene
 
-image::g18s032.{imgext}[A street,align="center"]
+image::g18s032.png[A street,align="center"]
 
 U-ci es u strata-vista. U longi rekti rota via(1)e bi pedi-via(2). Prima, skop
 u laevo pedi-via(3).
@@ -2120,7 +2119,7 @@ e habe sati bibe-hidro.
 
 === Post Office
 
-image::g18s033.{imgext}[Post office,align="center"]
+image::g18s033.png[Post office,align="center"]
 
 NOTE: On the sign, "KLUDE" would be better than "KLAUSTRO", or even
 better "NE- FUNKTIO". And "FUNKTIO" is perhaps better than "APRI".
@@ -2212,7 +2211,7 @@ wax). Other meanings of the English word "style" are expressed in Glosa by "mode
 
 === Kruci-Verba
 
-image::g18s034.{imgext}[Crossword puzzle,align="center"]
+image::g18s034.png[Crossword puzzle,align="center"]
 
 ==== Kata:
 
@@ -2227,7 +2226,7 @@ puta-... *13*: Planeta alo Glosa karita. *14*: Mo kata posi casa u-ci bio- ra.
 ex plu Glosa mekani. *10*: Kine a certa loka.  *12*: Kontra mei. *13*: Famili
 celebra. *15*: Mo-bi meno. *19*: Este u-ci per nasa. *20*: Id tena neo bio.
 
-You can see <<#kruci-verba-step-13,the solution>>.
+You can see <<_kruci_verba_step_13,the solution>>.
 
 == Step 14
 
@@ -2669,7 +2668,7 @@ Andrew
 
 {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
 {nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}{nbsp}
-image:g18s040.{imgext}["",float="right"]
+image:g18s040.png["",float="right"]
 
 Irene Cox,
 
@@ -2993,9 +2992,6 @@ preferable.
 
 == Key to Exercises
 
-ifeval::["{backend}" == "html5"]
-[#pikto-verba-step-1]
-endif::[]
 === Pikto-Verba (Step 1)
 
 ....
@@ -3014,9 +3010,6 @@ O     P O S T A K A R T A
             A
 ....
 
-ifeval::["{backend}" == "html5"]
-[#kruci-verba-step-13]
-endif::[]
 === Kruci-Verba (Step 13)
 
 ....
@@ -3051,7 +3044,7 @@ THIRD-WORLD, CONSERVATION
 // XXX REMARK -- This quote is not verbatim the copy in section _The
 // Global Language for the Global Village_.
 
-image::g18s035.{imgext}[Diagram with Glosa-logo,align="center"]
+image::g18s035.png[Diagram with Glosa-logo,align="center"]
 
 [quote, Prof. Hogben, Vocabulary of Science]
 ____

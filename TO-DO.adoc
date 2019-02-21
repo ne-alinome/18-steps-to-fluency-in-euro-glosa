@@ -4,4 +4,4 @@
 
 - Fix: The texts of Shakespeare don't split into two pages in the PDF.
 - Create the pictures of the digits.
-- Fix the cross references.
+- Fix: dbtoepub fails converting.
