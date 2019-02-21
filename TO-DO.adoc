@@ -6,5 +6,4 @@
 - Create the pictures of the digits.
 - Fix the cross references. They only work in EPUB created by pandoc.
   Use dbtoepub.
-- Create also a letter version of the PDF.
 - Remove `revdate` from the covers.

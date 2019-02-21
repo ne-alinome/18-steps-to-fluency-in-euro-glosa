@@ -2,7 +2,7 @@
 
 # By Marcos Cruz (programandala.net)
 
-# Last modified 201902211545
+# Last modified 201902211712
 # See change log at the end of the file
 
 # ==============================================================
@@ -27,7 +27,7 @@ target=target
 # Interface
 
 .PHONY: all
-all: epub
+all: epub pdf
 
 .PHONY: docbook
 docbook: \
@@ -57,9 +57,17 @@ odt: \
 	$(target)/$(book).adoc.xml.pandoc.odt
 
 .PHONY: pdf
-pdf: \
+pdf: pdfa4 pdfletter
+
+.PHONY: pdfa4
+pdfa4: \
 	images \
-	$(target)/$(book).adoc.pdf
+	$(target)/$(book).adoc.a4.pdf
+
+.PHONY: pdfletter
+pdfletter: \
+	images \
+	$(target)/$(book).adoc.letter.pdf
 
 .PHONY: rtf
 rtf: \
@@ -175,12 +183,17 @@ $(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
 # Convert to PDF
 
 # XXX REMARK --
-#
 # asciidoctor: WARNING: GIF image format not supported. Install the
 # prawn-gmagick gem or convert g18s029.gif to PNG.
 
-$(target)/$(book).adoc.pdf: $(book).adoc images
-	asciidoctor-pdf --out-file=$@ $<
+$(target)/$(book).adoc.a4.pdf: $(book).adoc images
+	asciidoctor-pdf \
+		--out-file=$@ $<
+
+$(target)/$(book).adoc.letter.pdf: $(book).adoc images
+	asciidoctor-pdf \
+		--attribute pdf-page-size=letter \
+		--out-file=$@ $<
 
 # ==============================================================
 # Convert to RTF
@@ -214,4 +227,5 @@ $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 # 2018-12-05: Add conversion of the original GIF images, which asciidoctor-pdf
 # does not support, into PNGs. Fix RTF output (`--standalone` was missing).
 #
-# 2019-02-21: Improve handling of images: Use the PNGs directly.
+# 2019-02-21: Improve handling of images: Use the PNGs directly. Create also a
+# letter size version of the PDF.
