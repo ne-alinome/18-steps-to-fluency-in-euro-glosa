@@ -17,11 +17,14 @@
 # ==============================================================
 # Config
 
-VPATH=./src:./$(target)
+VPATH=./src:./target
 
 book=18_steps_to_fluency_in_euro-glosa
-
-target=target
+title="18 Steps to Fluency in Euro-Glosa"
+lang="en"
+editor="Marcos Cruz (programandala.net)"
+publisher="ne.alinome"
+description="Text book on the Glosa language"
 
 # ==============================================================
 # Interface
@@ -32,29 +35,37 @@ all: epub pdf
 .PHONY: docbook
 docbook: \
 	images \
-	$(target)/$(book).adoc.xml
+	target/$(book).adoc.xml
 
 .PHONY: epub
-epub: \
+epub: epubp
+
+.PHONY: epubd
+epubd: \
 	images \
-	$(target)/$(book).adoc.xml.pandoc.epub
+	target/$(book).adoc.xml.dbtoepub.epub
+
+.PHONY: epubp
+epubp: \
+	images \
+	target/$(book).adoc.xml.pandoc.epub
 
 .PHONY: picdir
 picdir:
-	ln --force --symbolic --target-directory=$(target) ../src/pic
+	ln --force --symbolic --target-directory=target ../src/pic
 
 .PHONY: html
 html: \
 	picdir \
 	images \
-	$(target)/$(book).adoc.html \
-	$(target)/$(book).adoc.plain.html \
-	$(target)/$(book).adoc.xml.pandoc.html
+	target/$(book).adoc.html \
+	target/$(book).adoc.plain.html \
+	target/$(book).adoc.xml.pandoc.html
 
 .PHONY: odt
 odt: \
 	images \
-	$(target)/$(book).adoc.xml.pandoc.odt
+	target/$(book).adoc.xml.pandoc.odt
 
 .PHONY: pdf
 pdf: pdfa4 pdfletter
@@ -62,27 +73,27 @@ pdf: pdfa4 pdfletter
 .PHONY: pdfa4
 pdfa4: \
 	images \
-	$(target)/$(book).adoc.a4.pdf
+	target/$(book).adoc.a4.pdf
 
 .PHONY: pdfletter
 pdfletter: \
 	images \
-	$(target)/$(book).adoc.letter.pdf
+	target/$(book).adoc.letter.pdf
 
 .PHONY: rtf
 rtf: \
 	images \
-	$(target)/$(book).adoc.xml.pandoc.rtf
+	target/$(book).adoc.xml.pandoc.rtf
 
 .PHONY: clean
 clean:
 	rm -f \
-		$(target)/*.epub \
-		$(target)/*.html \
-		$(target)/*.odt \
-		$(target)/*.pdf \
-		$(target)/*.rtf \
-		$(target)/*.xml
+		target/*.epub \
+		target/*.html \
+		target/*.odt \
+		target/*.pdf \
+		target/*.rtf \
+		target/*.xml
 
 # ==============================================================
 # Images 
@@ -117,42 +128,65 @@ digits: src/pic/1.png
 images: digits
 
 # ==============================================================
-# Convert to DocBook
+# Convert Asciidoctor to DocBook
 
-$(target)/$(book).adoc.xml: $(book).adoc
+target/$(book).adoc.xml: $(book).adoc
 	adoc --backend=docbook5 --out-file=$@ $<
 
 # ==============================================================
-# Convert to EPUB
+# Convert DocBook to EPUB
 
-# NB: Pandoc does not allow alternative templates. The default templates must
-# be modified or redirected instead. They are the following:
-# 
-# /usr/share/pandoc-1.9.4.2/templates/epub-coverimage.html
-# /usr/share/pandoc-1.9.4.2/templates/epub-page.html
-# /usr/share/pandoc-1.9.4.2/templates/epub-titlepage.html
+# ------------------------------------------------
+# With dbtoepub
 
-$(target)/$(book).adoc.xml.pandoc.epub: $(target)/$(book).adoc.xml
+target/$(book).adoc.xml.dbtoepub.epub: \
+	target/$(book).adoc.xml \
+	src/$(book)-docinfo.xml \
+	src/dbtoepub_stylesheet.css
+	dbtoepub \
+		--css src/dbtoepub_stylesheet.css \
+		--output $@ $<
+
+# ------------------------------------------------
+# With pandoc
+
+target/$(book).adoc.xml.pandoc.epub: \
+	target/$(book).adoc.xml \
+	src/$(book)-docinfo.xml \
+	src/pandoc_epub_template.txt \
+	src/pandoc_epub_stylesheet.css
 	pandoc \
 		--from=docbook \
-		--to=epub \
+		--to=epub3 \
+		--template=src/pandoc_epub_template.txt \
+		--css=src/pandoc_epub_stylesheet.css \
+		--variable=lang:$(lang) \
+		--variable=editor:$(editor) \
+		--variable=publisher:$(publisher) \
+		--variable=description:$(description) \
 		--output=$@ \
 		$<
 
 # ==============================================================
-# Convert to HTML
+# Convert Asciidoctor to HTML
 
-$(target)/$(book).adoc.plain.html: $(book).adoc
+# ------------------------------------------------
+# With Asciidoctor
+
+target/$(book).adoc.plain.html: $(book).adoc
 	adoc \
 		--attribute="stylesheet=none" \
 		--quiet \
 		--out-file=$@ \
 		$<
 
-$(target)/$(book).adoc.html: $(book).adoc
+target/$(book).adoc.html: $(book).adoc
 	adoc --out-file=$@ $<
 
-$(target)/$(book).adoc.xml.pandoc.html: $(target)/$(book).adoc.xml
+# ------------------------------------------------
+# With pandoc
+
+target/$(book).adoc.xml.pandoc.html: target/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=html \
@@ -160,37 +194,32 @@ $(target)/$(book).adoc.xml.pandoc.html: $(target)/$(book).adoc.xml
 		$<
 
 # ==============================================================
-# Convert to ODT
-
-# XXX FIXME -- The images can not be found, unless the <pic> directory is in
-# the root of the project. A symbolic link is created by the recipe and deleted
-# at the end.
+# Convert DocBook to ODT
 
 # XXX WARNING -- Some images don't fit the page. They have to be resized
 # manually.
 
-$(target)/$(book).adoc.xml.pandoc.odt: $(target)/$(book).adoc.xml
-	ln -sf target/pic pic
+target/$(book).adoc.xml.pandoc.odt: target/$(book).adoc.xml
 	pandoc \
 		+RTS -K15000000 -RTS \
 		--from=docbook \
 		--to=odt \
+		--template=src/pandoc_odt_template.txt \
 		--output=$@ \
 		$<
-	rm -f pic
 
 # ==============================================================
-# Convert to PDF
+# Convert Asciidoctor to PDF
 
 # XXX REMARK --
 # asciidoctor: WARNING: GIF image format not supported. Install the
 # prawn-gmagick gem or convert g18s029.gif to PNG.
 
-$(target)/$(book).adoc.a4.pdf: $(book).adoc images
+target/$(book).adoc.a4.pdf: $(book).adoc images
 	asciidoctor-pdf \
 		--out-file=$@ $<
 
-$(target)/$(book).adoc.letter.pdf: $(book).adoc images
+target/$(book).adoc.letter.pdf: $(book).adoc images
 	asciidoctor-pdf \
 		--attribute pdf-page-size=letter \
 		--out-file=$@ $<
@@ -201,7 +230,7 @@ $(target)/$(book).adoc.letter.pdf: $(book).adoc images
 # XXX WARNING -- Tables are not properly converted: the contents of the row are
 # displayed below their row.
 
-$(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
+target/$(book).adoc.xml.pandoc.rtf: target/$(book).adoc.xml
 	pandoc \
 		--from=docbook \
 		--to=rtf \
@@ -228,4 +257,7 @@ $(target)/$(book).adoc.xml.pandoc.rtf: $(target)/$(book).adoc.xml
 # does not support, into PNGs. Fix RTF output (`--standalone` was missing).
 #
 # 2019-02-21: Improve handling of images: Use the PNGs directly. Create also a
-# letter size version of the PDF.
+# letter size version of the PDF. Create an additional EPUB with dbtoepub.
+# Update pandoc parameters to version 2.6. Improve metadata. Add templates and
+# styles. Remove <pic> link from the ODT rule: somehow it's not needed anymore
+# (maybe because of the updated pandoc).

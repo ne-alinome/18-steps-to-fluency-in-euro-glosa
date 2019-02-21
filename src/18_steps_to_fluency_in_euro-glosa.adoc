@@ -1,6 +1,5 @@
 = 18 Steps to Fluency in Euro-Glosa
-:author: Wendy Ashby; Ronald Clark
-:revdate: 2019-02-21
+:authors: Wendy Ashby, Ronald Clark
 :toc:
 :toc-levels: 3
 :imgext: png
