@@ -2,6 +2,9 @@
 :author: Marcos Cruz (programandala.net)
 :revdate: 2019-02-21
 
-- Fix: The texts of Shakesepeare don't split into two pages.
+- Fix: The texts of Shakespeare don't split into two pages in the PDF.
 - Create the pictures of the digits.
-- Improve and finish section "About this e-book".
+- Fix the cross references. They only work in EPUB created by pandoc.
+  Use dbtoepub.
+- Create also a letter version of the PDF.
+- Remove `revdate` from the covers.
