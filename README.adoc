@@ -1,6 +1,6 @@
 = 18 Steps to Fluency in Euro-Glosa
 :author: Marcos Cruz (programandala.net)
-:revdate: 2019-02-21
+:revdate: 2019-02-24
 
 == English
 
@@ -9,13 +9,12 @@ About this project:
 Goal:: Convert the book _18 Steps to Fluency in Euro-Glosa_, by Wendy
 Ashby and Ronald Clark (1985-1992), into
 http://asciidoctor.org[Asciidoctor] format, out of the HTML version
-made by Marcel Springer (2001-2010) for http://glosa.org, in order to
-create en EPUB e-book and other formats, in order to preserve it and
-make it easier to read.
+made by Marcel Springer (2001-2010) for http://glosa.org[glosa.org],
+in order to create en EPUB e-book and other formats.
 
 Author:: Marcos Cruz (programandala.net)
 
-Website:: http://ne.alinome.net
+Website:: http://ne.alinome.net[ne.alinome.net]
 
 Note: The first 33 messages of the Git repository are in Glosa.
 
@@ -27,12 +26,12 @@ Objetivo:: Convertir el libro _18 Steps to Fluency in Euro-Glosa_ (18
 pasos hacia la fluidez en Glosa), de Wendy Ashby y Ronald Clark
 (1985-1992), al formato http://asciidoctor.org[Asciidoctor], a partir
 de la versión HTML creada por Marcel Springer (2001-2010) para
-http://glosa.org, con el objeto de obtener una versión en EPUB y otros
-formatos, y así preservar la obra y hacerla más fácil de leer.
+http://glosa.org[glosa.org], con el objeto de obtener una versión en
+EPUB y otros formatos, y así hacerlo más fácil de leer.
 
 Autor:: Marcos Cruz (programandala.net)
 
-Sede:: http://ne.alinome.net
+Sede:: http://ne.alinome.net[ne.alinome.net]
 
 Nota: Los comentarios de las primeras 33 entradas repositorio Git
 están en Glosa.  El resto está en inglés.
@@ -46,7 +45,7 @@ Celo:: Traduki la libron _18 Steps to Fluency in Euro-Glosa_ (18
 (1985-1992), en http://asciidoctor.org[Asciidoctor]-formaton, el la
 HTML-a versio farita de Marcel Springer (2001-2010) por
 http://glosa.org, cele krei EPUB-bitlibron kaj aliajn formatojn, por
-konservi ĝin kaj igi ĝin pli facile legebla.
+igi ĝin pli facile legebla.
 
 Aŭtoro:: Marcos Cruz (programandala.net)
 
@@ -57,19 +56,18 @@ Glos-lingvaj. La ceteraj estas en la angla.
 
 == Glosa
 
-Plu tende de u-ci projekti:
+De u-ci projekti:
 
 U tende:: Muta u libri _18 Steps to Fluency in Euro-Glosa_, ex Wendy
 Ashby e Ronald Clark (1985-1992), ad-in
 http://asciidoctor.org[Asciidoctor] formati, ab HTML dokumenta
-ge-grafo ex Marcel Springer (2001-2010) pro http://glosa.org, te face
-un EPUB e-bibli e plu hetero formati, te tena id, e face, ke id es ma
-facili de lekto.
+ge-grafo ex Marcel Springer (2001-2010) pro
+http://glosa.org[glosa.org], te face un EPUB e-bibli e plu hetero
+formati, te face, ke id es ma facili de lekto.
 
 Autori:: Marcos Cruz (programandala.net)
 
-Inter-reti-lo:: http://ne.alinome.net
+Inter-reti-lo:: http://ne.alinome.net[ne.alinome.net]
 
 Nota: Plu 33 proto nota de Git dokumenta-va es in Glosa. Plu hetero
 nota es in English.
-
